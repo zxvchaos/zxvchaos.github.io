@@ -14,9 +14,11 @@ const pathname = Astro.url.pathname.replace(/\/$/, '') || '/';
 let pagePath = pathname;
 if (pathname.startsWith('/en')) pagePath = pathname.slice(3) || '/';
 else if (pathname.startsWith('/zh')) pagePath = pathname.slice(3) || '/';
-const jpPath = pagePath === '/' ? '/' : pagePath;
-const enPath = pagePath === '/' ? '/en/' : `/en${pagePath}`;
-const zhPath = pagePath === '/' ? '/zh/' : `/zh${pagePath}`;
+// Ensure trailing slash for GitHub Pages compatibility
+const trail = (p: string) => p === '/' ? '/' : `${p}/`;
+const jpPath = trail(pagePath);
+const enPath = trail(pagePath === '/' ? '/en' : `/en${pagePath}`);
+const zhPath = trail(pagePath === '/' ? '/zh' : `/zh${pagePath}`);
 ---
 
 <!DOCTYPE html>
