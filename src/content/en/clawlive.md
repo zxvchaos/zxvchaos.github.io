@@ -33,22 +33,22 @@ All three domains share a unified platform foundation. Only the output format di
 
 Most digital human products deliver a single on-screen character.
 
-What ClawLive provides is not a character, but **the full operational capability of a team composed of digital lives**.
+What ClawLive provides is not a character, but **the full operational capability of an entire Digital Life team**.
 
 The digital human that viewers see is simply the one standing at the front of the team. Behind it, a network of AI agents — each with a specialized role — works in coordination.
 
 | Role | Responsibility |
 |------|---------------|
 | Renderer | Generates visuals and lip-sync in real time |
-| Personality Designer | Maintains character consistency and emotional state |
+| Personality Engine | Maintains character consistency and emotional state |
 | Voice Engine | Speech synthesis and voice reproduction |
-| Interaction Handler | Reads and responds to comments, gifts, and follows |
+| Interaction | Reads and responds to comments, gifts, and follows |
 | Broadcast Manager | Video output and multi-platform distribution |
 | Orchestrator | Task coordination, fault recovery, and uptime monitoring |
 
 Each of these operates as an independent AI agent that can be individually monitored, swapped, and improved.
 
-This is not a single "program" running — it is **a team of digital lives operating together**. That is the fundamental difference from a conventional digital human streaming tool.
+This is not a single "program" running — it is **a Digital Life team at work**. That is the fundamental difference from a conventional digital human streaming tool.
 
 ---
 
@@ -56,7 +56,7 @@ This is not a single "program" running — it is **a team of digital lives opera
 
 ### 3.1 Live Commerce Takes Off
 
-In Japan, 2025 is increasingly seen as **Year One of live commerce**.
+In Japan, 2025 is increasingly seen as **the inaugural year for live commerce in Japan**.
 
 | Metric | Figure | Source |
 |--------|--------|--------|
@@ -187,7 +187,7 @@ No data center is required. **A single workstation at the RTX 4090 level** can r
 
 | Category | Representative Players | Model | How ClawLive Differs |
 |----------|----------------------|-------|---------------------|
-| China SaaS | Silicon Intelligence (32% market share) | Generic scripts with swappable avatars | **Independent personality logic per character** |
+| China SaaS | Silicon-Based Intelligence (32% market share) | Generic scripts with swappable avatars | **Independent personality logic per character** |
 | Japan VTuber | Hololive, Nijisanji | Human performer + 2D/3D model | **Fully AI-driven. Zero labor cost** |
 | International SaaS | Synthesia, HeyGen | Pre-recorded video generation | **Real-time streaming. Reads comments and holds conversations** |
 
@@ -203,7 +203,7 @@ Each module can be provided independently. Clients choose the combination that f
 | **Digital Human Production** | Character design + AI generation + rendering calibration | Ready-to-use digital human |
 | **Personality Design** | Character definition, speech style, emotional logic | Personality config file + test report |
 | **Content Localization** | Natural Japanese, cultural adaptation, expression optimization | Japanese scripts + assets |
-| **System Integration** | Environment setup, tuning, launch | Production-ready streaming system |
+| **System Deployment** | Environment setup, tuning, launch | Production-ready streaming system |
 | **Operations Support** | Data monitoring, performance improvement, optimization proposals | Periodic reports |
 
 ### Expected Collaboration Patterns
@@ -211,17 +211,17 @@ Each module can be provided independently. Clients choose the combination that f
 **Brand Companies**
 > "We want to livestream our products to the Japanese market using digital humans."
 
--> Digital Human Production + Personality Design + Content Localization + System Integration
+-> Digital Human Production + Personality Design + Content Localization + System Deployment
 
 **MCN / Talent Management Agencies**
 > "We want to create a 24/7 digital avatar that leverages our talent's IP."
 
--> Market Analysis + High-Fidelity Personality Modeling + System Integration + Ongoing Tuning
+-> Market Analysis + High-Fidelity Personality Modeling + System Deployment + Ongoing Tuning
 
 **Content Production Studios**
 > "We want to mass-produce short-form video and ad content for international audiences."
 
--> Digital Human Production + Content Localization + Mass Production Pipeline
+-> Digital Human Production + Content Localization + Mass Production Pipeline Setup
 
 ---
 
