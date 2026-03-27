@@ -28,14 +28,12 @@ const { title, description = "AI Engineer — Edge AI × Digital Humans × Psych
         Z. Zhou
       </a>
       <div class="flex items-center gap-6 text-sm text-text-muted">
-        <a href={lang === "en" ? "/en/guardian" : "/guardian"} class="hover:text-text transition-colors">Guardian</a>
-        <a href={lang === "en" ? "/en/clawlive" : "/clawlive"} class="hover:text-text transition-colors">ClawLive</a>
+        <a href={lang === "en" ? "/en/guardian" : lang === "zh" ? "/zh/guardian" : "/guardian"} class="hover:text-text transition-colors">Guardian</a>
+        <a href={lang === "en" ? "/en/clawlive" : lang === "zh" ? "/zh/clawlive" : "/clawlive"} class="hover:text-text transition-colors">ClawLive</a>
         <span class="h-4 w-px bg-border"></span>
-        {lang === "ja" ? (
-          <a href="/en/" class="hover:text-accent transition-colors">EN</a>
-        ) : (
-          <a href="/" class="hover:text-accent transition-colors">JA</a>
-        )}
+        <a href="/" class={`hover:text-accent transition-colors ${lang === "ja" ? "text-accent" : ""}`}>JP</a>
+        <a href="/en/" class={`hover:text-accent transition-colors ${lang === "en" ? "text-accent" : ""}`}>EN</a>
+        <a href="/zh/" class={`hover:text-accent transition-colors ${lang === "zh" ? "text-accent" : ""}`}>ZH</a>
       </div>
     </div>
   </nav>

@@ -14,7 +14,7 @@ const { title, subtitle, accentColor, lang = "ja" } = Astro.props;
 <Layout title={`${title} — Zichao Zhou`} lang={lang}>
   <article class="relative z-10 mx-auto max-w-3xl px-6 py-16">
     <a
-      href={lang === "en" ? "/en/" : "/"}
+      href={lang === "en" ? "/en/" : lang === "zh" ? "/zh/" : "/"}
       class="mb-8 inline-flex items-center gap-1 text-sm text-text-dim hover:text-accent transition-colors"
     >
       <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
@@ -35,11 +35,11 @@ const { title, subtitle, accentColor, lang = "ja" } = Astro.props;
 
     <footer class="mt-16 border-t border-border pt-8">
       <a
-        href={lang === "en" ? "/en/" : "/"}
+        href={lang === "en" ? "/en/" : lang === "zh" ? "/zh/" : "/"}
         class="inline-flex items-center gap-2 text-sm text-accent hover:underline"
       >
         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
-        プロジェクト一覧に戻る
+        {lang === "en" ? "Back to Projects" : lang === "zh" ? "返回项目列表" : "プロジェクト一覧に戻る"}
       </a>
     </footer>
   </article>
