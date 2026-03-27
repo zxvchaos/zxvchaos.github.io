@@ -82,7 +82,7 @@ export default function ContributionGraph({ username = "zxvchaos", year = 2025 }
         <span className="text-xs text-gray-400">
           <strong className="text-white">{total.toLocaleString()}</strong> contributions in {year}
         </span>
-        <span className="text-xs text-gray-500">github.com/{username}</span>
+        <span className="text-xs text-gray-500">GitHub</span>
       </div>
       <div className="overflow-x-auto">
         <svg width={svgWidth} height={svgHeight} className="mx-auto">
