@@ -99,3 +99,5 @@ body {
 .prose-dark hr { border: none; border-top: 1px solid var(--color-border); margin: 3em 0; }
 .prose-dark code { background: var(--color-bg-card); padding: 0.15em 0.4em; border-radius: 4px; font-size: 0.9em; font-family: var(--font-mono); }
 .prose-dark img { border-radius: 8px; border: 1px solid var(--color-border); max-width: 100%; }
+.prose-dark .img-wide { margin-left: -10%; margin-right: -10%; max-width: 120%; width: 120%; }
+.prose-dark .img-wide img { max-width: 100%; width: 100%; }
