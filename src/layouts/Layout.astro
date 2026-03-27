@@ -8,6 +8,15 @@ interface Props {
 }
 
 const { title, description = "AI Engineer — Edge AI × Digital Humans × Psychology", lang = "ja" } = Astro.props;
+
+// Extract page path without language prefix for language switcher
+const pathname = Astro.url.pathname.replace(/\/$/, '') || '/';
+let pagePath = pathname;
+if (pathname.startsWith('/en')) pagePath = pathname.slice(3) || '/';
+else if (pathname.startsWith('/zh')) pagePath = pathname.slice(3) || '/';
+const jpPath = pagePath === '/' ? '/' : pagePath;
+const enPath = pagePath === '/' ? '/en/' : `/en${pagePath}`;
+const zhPath = pagePath === '/' ? '/zh/' : `/zh${pagePath}`;
 ---
 
 <!DOCTYPE html>
@@ -24,16 +33,16 @@ const { title, description = "AI Engineer — Edge AI × Digital Humans × Psych
 <body class="min-h-screen bg-bg text-text antialiased">
   <nav class="fixed top-0 left-0 right-0 z-50 border-b border-border/50 bg-bg/80 backdrop-blur-xl">
     <div class="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
-      <a href={lang === "en" ? "/en/" : "/"} class="text-lg font-semibold tracking-tight hover:text-accent transition-colors">
+      <a href={lang === "en" ? "/en/" : lang === "zh" ? "/zh/" : "/"} class="text-lg font-semibold tracking-tight hover:text-accent transition-colors">
         Z. Zhou
       </a>
       <div class="flex items-center gap-6 text-sm text-text-muted">
         <a href={lang === "en" ? "/en/guardian" : lang === "zh" ? "/zh/guardian" : "/guardian"} class="hover:text-text transition-colors">Guardian</a>
         <a href={lang === "en" ? "/en/clawlive" : lang === "zh" ? "/zh/clawlive" : "/clawlive"} class="hover:text-text transition-colors">ClawLive</a>
         <span class="h-4 w-px bg-border"></span>
-        <a href="/" class={`hover:text-accent transition-colors ${lang === "ja" ? "text-accent" : ""}`}>JP</a>
-        <a href="/en/" class={`hover:text-accent transition-colors ${lang === "en" ? "text-accent" : ""}`}>EN</a>
-        <a href="/zh/" class={`hover:text-accent transition-colors ${lang === "zh" ? "text-accent" : ""}`}>ZH</a>
+        <a href={jpPath} class={`hover:text-accent transition-colors ${lang === "ja" ? "text-accent" : ""}`}>JP</a>
+        <a href={enPath} class={`hover:text-accent transition-colors ${lang === "en" ? "text-accent" : ""}`}>EN</a>
+        <a href={zhPath} class={`hover:text-accent transition-colors ${lang === "zh" ? "text-accent" : ""}`}>ZH</a>
       </div>
     </div>
   </nav>
