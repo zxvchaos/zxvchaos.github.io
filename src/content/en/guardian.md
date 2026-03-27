@@ -1,235 +1,235 @@
-# GenAI Guardian — 項目紹介
+# GenAI Guardian — Project Overview
 
-> 完全オフラインで動作するエッジ AI 特殊詐欺検知システム
+> A fully offline edge AI system for telecom fraud detection
 
 ---
 
-## 1. GenAI Guardian とは
+## 1. What Is GenAI Guardian
 
-GenAI Guardian は、**完全オフライン**で動作する特殊詐欺検知エッジ AI システムである。
+GenAI Guardian is a special fraud detection edge AI system that operates **completely offline**.
 
-**インターネット接続を一切必要とせず、音声・映像データは端末の外に出ない。**
+**No internet connection is required whatsoever. Voice and video data never leave the device.**
 
-高齢者が自宅で電話を受ける——特殊詐欺の被害はこの極めてプライベートな空間で発生する。この空間にカメラやマイクを導入する以上、そのデータが外部に送信される仕組みであれば、利用者も家族も安心できない。どれだけ「データは暗号化されている」「サーバーは安全である」と説明しても、通信経路が存在する限り、不安は解消されない。
+Elderly individuals receive phone calls at home — telecom fraud strikes in this most private of spaces. If a system introduces cameras and microphones into that space while transmitting data externally, neither the user nor their family can feel at ease. No matter how much one explains that "the data is encrypted" or "the server is secure," anxiety persists as long as a communication pathway exists.
+GenAI Guardian resolves this problem through a design that eliminates the communication pathway entirely. Furthermore, the system is linked to the telephone and **activates only when a call is in progress**. There is no constant surveillance.
 
-GenAI Guardian は、通信経路そのものを排除することでこの問題を解決している。さらに、システムは電話と連動し、**通話が発生したときにのみ起動する**。常時監視ではない。
-
-| 設計原則 | 内容 |
+| Design Principle | Details |
 |---------|------|
-| 通信 | **不要。完全オフラインで動作** |
-| データ送信 | **なし。音声・映像データは端末外に出ない** |
-| 起動条件 | **電話と連動。通話時のみ起動（常時監視ではない）** |
-| 端末 | 小型カメラ（マイク・スピーカー搭載）+ 専用小型端末 |
-| プライバシー | 非侵入式。利用者の生活を記録・蓄積しない |
+| Communication | **Not required. Fully offline operation** |
+| Data Transmission | **None. Voice and video data never leave the device** |
+| Activation | **Phone-linked. Active only during calls (no constant surveillance)** |
+| Hardware | Compact camera (with microphone and speaker) + dedicated compact device |
+| Privacy | Non-intrusive. Does not record or accumulate data from the user's daily life |
 
-高齢者宅への導入において、インターネット環境の有無も通信費用も障壁にならない。
+For deployment in elderly households, neither the availability of an internet connection nor communication costs pose a barrier.
 
-犯罪心理学の知見と AI 技術を融合し、詐欺犯が使う「心理的支配の構造」を、通話音声の文脈とカメラ映像の動作パターンの両面からリアルタイムに検知する。
+By fusing insights from criminal psychology with AI technology, the system detects the "structure of psychological manipulation" used by fraud perpetrators in real time, through both the conversational context of call audio and behavioral patterns captured on camera.
 
-| 柱 | 機能 | 特徴 |
+| Pillar | Function | Characteristics |
 |---|------|------|
-| **文脈 Token 検知** | 通話音声のリアルタイム文脈分析 | 詐欺防止専用。文脈認識型 |
-| **人間動作分析** | 緊迫環境下の動作変化検出 | ローカル AI による動態認識 |
-| **データ基盤** | 多言語・多地域の反詐欺データ | 約 600 時間の音声、約 40 億文字のテキスト |
+| **Context Token Detection** | Real-time contextual analysis of call audio | Purpose-built for fraud prevention. Context-aware |
+| **Human Behavior Analysis** | Detection of behavioral changes under duress | On-device AI-based motion recognition |
+| **Data Foundation** | Multilingual, multi-regional anti-fraud data | Approx. 600 hours of audio, approx. 4 billion characters of text |
 
 ---
 
-## 2. 社会課題：特殊詐欺被害の深刻化
+## 2. The Social Problem: Escalating Telecom Fraud
 
-### 日本の現状
+### The Situation in Japan
 
-| 年 | 認知件数 | 被害額 | 出典 |
+| Year | Reported Cases | Damage Amount | Source |
 |----|---------|--------|------|
-| 2024 | 21,043 件 | 717.6 億円 | 警察庁 |
-| 2025 | 27,758 件（+31.9%） | **1,414 億円**（過去最高） | 警察庁 |
+| 2024 | 21,043 cases | 71.76 billion yen | National Police Agency |
+| 2025 | 27,758 cases (+31.9%) | **141.4 billion yen** (all-time high) | National Police Agency |
 
-2025 年、特殊詐欺の被害額は**前年比約 2 倍**に急増し、過去最高を更新した（警察庁発表）。SNS 型投資詐欺・ロマンス詐欺を含めた合計被害額は **3,241 億円**を超えている。
+In 2025, telecom fraud damages surged to **roughly double the previous year**, setting a new all-time record (National Police Agency). Including SNS-based investment fraud and romance scams, total damages exceeded **324.1 billion yen**.
 
-### グローバルな脅威拡大
+### A Growing Global Threat
 
-この問題は日本に限らない。2026 年 1 月、米国の反詐欺専門家 Frank McKenna 氏は年次レポート（*2026 Fraud Predictions*）において、AI 駆動の詐欺が**「ブレーキなき時代」**に入ると警告した。
+This problem is not limited to Japan. In January 2026, U.S. anti-fraud expert Frank McKenna stated in his annual report (*2026 Fraud Predictions*) that AI-driven fraud has entered an **"era with no brakes."**
 
-- 2025 年の世界全体の詐欺被害は **1 兆ドル**を超えた
-- ディープフェイク攻撃は前年比 **3,000%** 増加
-- 世界の成人の約 **70%** が何らかの詐欺被害を経験
-- AI 自動化により、少人数で毎日数万人規模の標的に攻撃可能な「詐欺工場」が出現しつつある
+- Global fraud losses exceeded **$1 trillion** in 2025
+- Deepfake attacks increased **3,000%** year-over-year
+- Approximately **70%** of adults worldwide have experienced some form of fraud
+- AI automation is giving rise to "fraud factories" capable of targeting tens of thousands of people daily with minimal staff
 
-AI の進化は、詐欺の手口を日々高度化させている。対策もまた、AI によって進化しなければならない。
+The evolution of AI is making fraud techniques more sophisticated by the day. Countermeasures must also evolve through AI.
 
-### 高齢者被害の構造
+### The Structure of Elderly Victimization
 
-2024 年の統計では、特殊詐欺の被害者のうち **65 歳以上が 65.4%** を占める（警察庁）。2022 年時点では 86.6% であり、近年は若年層にも被害が拡大しているが、高齢者が依然として被害の中心にある。
+According to 2024 statistics, **65.4% of telecom fraud victims are aged 65 or older** (National Police Agency). While this figure was 86.6% in 2022 and victimization has been expanding to younger demographics in recent years, the elderly remain at the center of the problem.
 
-日本は世界で最も高齢化が進んだ社会であり、高齢者人口は今後も増加が見込まれる。特殊詐欺被害の構造的リスクは、人口動態上、拡大の方向にある。
+Japan has the most aged society in the world, and the elderly population is projected to continue growing. The structural risk of telecom fraud is on a demographic trajectory of expansion.
 
-![特殊詐欺の被害イメージ](/images/04e_antifraud_oreore.jpg)
+![Image depicting telecom fraud](/images/04e_antifraud_oreore.jpg)
 
-### 既存対策の限界
+### Limitations of Existing Countermeasures
 
-現在の主な対策——啓発活動、迷惑電話フィルター、通話録音——は、いずれも**通話が始まった後**の対応に留まるか、被害者自身の判断力に依存している。
+Current primary countermeasures — awareness campaigns, nuisance call filters, and call recording — either intervene only **after a call has already begun** or rely on the victim's own judgment.
 
-しかし、詐欺犯は被害者の判断力そのものを奪うことで犯行を成立させる。被害者が「これは詐欺かもしれない」と判断できる状態であれば、そもそも被害は発生しない。**判断力を失った状態の人間を検知する仕組み**が必要である。
+However, fraud perpetrators succeed precisely by stripping victims of their ability to judge. If a victim were capable of thinking "this might be a scam," the fraud would not succeed in the first place. What is needed is **a mechanism that detects when a person has lost the capacity for sound judgment**.
 
 ---
 
-## 3. この課題への社会的関心
+## 3. Public Interest in This Challenge
 
-### AI × 犯罪心理学による特殊詐欺対策
+### Anti-Fraud Measures Through AI and Criminal Psychology
 
-AI と犯罪心理学を融合した特殊詐欺対策は、すでに日本社会で大きな関心を集めている。
+Anti-fraud approaches that fuse AI with criminal psychology have already attracted significant attention in Japanese society.
 
-富士通株式会社、東洋大学、兵庫県尼崎市の三者は 2022 年から共同研究を実施し、「**コンバージングテクノロジー**」（収斂技術）による特殊詐欺防止に取り組んでいる。2025 年 5 月には詐欺検知精度 **82%** を達成し、日本の主要メディアが報道した。
+Fujitsu Limited, Toyo University, and the city of Amagasaki in Hyogo Prefecture have been conducting joint research since 2022, pursuing telecom fraud prevention through **"converging technology."** In May 2025, they achieved a fraud detection accuracy of **82%**, which was covered by major Japanese media outlets.
 
-| 時期 | マイルストーン |
+| Date | Milestone |
 |------|-------------|
-| 2022 年 3 月 | 共同研究開始。第 1 回実証実験（尼崎市役所） |
-| 2022 年 9 月 | 被害者の心理状態に関係する 11 要素を特定。日本応用心理学会で発表 |
-| 2023 年 10 月 | 日本心理学会にて「コンバージングテクノロジー研究会」採択 |
-| 2023 年 11 月 | 生成 AI を活用した特殊詐欺訓練ツールを開発。尼崎市で体験会実施 |
-| 2024 年 11 月 | 高齢者宅 22 戸に機器を設置し日常環境での検証を実施 |
-| 2025 年 5 月 | 詐欺検知精度 **82%** を達成 |
+| March 2022 | Joint research launched. First field trial (Amagasaki City Hall) |
+| September 2022 | Identified 11 factors related to victims' psychological states. Presented at the Japanese Association of Applied Psychology |
+| October 2023 | "Converging Technology Research Group" adopted at the Japanese Psychological Association |
+| November 2023 | Developed a generative AI-based telecom fraud training tool. Held experience sessions in Amagasaki |
+| November 2024 | Deployed devices in 22 elderly households for validation in daily living environments |
+| May 2025 | Achieved fraud detection accuracy of **82%** |
 
-この取り組みは、富士通・大学・自治体・全国紙と、多方面から公式に発信されている。
+This initiative has been officially communicated through multiple channels — Fujitsu, universities, municipalities, and national newspapers.
 
-- [読売新聞 — AI 判別 8 割超（2025 年 5 月）](https://www.yomiuri.co.jp/national/20250515-OYT1T50201/)
-- [産経新聞 — 呼吸・心拍数の AI 分析で 8 割超（2025 年 5 月）](https://www.sankei.com/article/20250515-7JW3P6LQNFLTPDYIF5HDN24R4A/)
-- [富士通 公式プレスリリース（2022 年 9 月）](https://info.archives.global.fujitsu/jp/news/updatesfj/2022/09/16-1.html)
-- [富士通 広報 — 特殊詐欺訓練 AI ツール](https://note.com/fujitsu_pr/n/n092c5ae19dbe)
-- [富士通 コンバージングテクノロジー研究会](https://global.fujitsu/ja-jp/local/blog/article/2024-01-19-01)
-- [尼崎市 公式ページ](https://www.city.amagasaki.hyogo.jp/kurashi/ansin/bouhan/1030308.html)
+- [Yomiuri Shimbun — AI Detection Exceeds 80% (May 2025)](https://www.yomiuri.co.jp/national/20250515-OYT1T50201/)
+- [Sankei Shimbun — AI Analysis of Respiration and Heart Rate Exceeds 80% (May 2025)](https://www.sankei.com/article/20250515-7JW3P6LQNFLTPDYIF5HDN24R4A/)
+- [Fujitsu Official Press Release (September 2022)](https://info.archives.global.fujitsu/jp/news/updatesfj/2022/09/16-1.html)
+- [Fujitsu PR — Anti-Fraud AI Training Tool](https://note.com/fujitsu_pr/n/n092c5ae19dbe)
+- [Fujitsu Converging Technology Research Group](https://global.fujitsu/ja-jp/local/blog/article/2024-01-19-01)
+- [Amagasaki City Official Page](https://www.city.amagasaki.hyogo.jp/kurashi/ansin/bouhan/1030308.html)
 
-### GenAI Guardian との接点
+### Connection to GenAI Guardian
 
-この研究を主導する東洋大学の教授は、GenAI Guardian の研究者の修士課程における指導教員である。研究者自身もコンバージングテクノロジー研究会に参加し、研究発表の聴講や議論に加わってきた。
+The Toyo University professor leading this research was the academic supervisor of the GenAI Guardian researcher during their master's program. The researcher has also participated in the Converging Technology Research Group, attending research presentations and contributing to discussions.
 
-GenAI Guardian は、同じ社会課題に対して異なるアプローチで取り組んでいる。
+GenAI Guardian addresses the same social challenge through a different approach.
 
-| 比較軸 | 富士通共同研究 | GenAI Guardian |
+| Comparison | Fujitsu Joint Research | GenAI Guardian |
 |--------|-------------|----------------|
-| 検知手法 | ミリ波センサー + 生理反応 | 文脈 Token 検知 + 人間動作分析 |
-| 重点 | ハードウェアセンシング | ソフトウェア・エッジ AI |
-| デバイス | 専用センサー設置 | 汎用カメラ + 小型端末 |
-| 通信 | — | **完全オフライン** |
-| 共通理念 | 非侵入式・プライバシー保護 | 同左 |
+| Detection Method | Millimeter-wave sensors + physiological responses | Context Token Detection + Human Behavior Analysis |
+| Focus | Hardware sensing | Software / Edge AI |
+| Device | Dedicated sensor installation | General-purpose camera + compact device |
+| Communication | — | **Fully offline** |
+| Shared Philosophy | Non-intrusive, privacy-preserving | Same |
 
-同じ目標に対する異なる研究路線として、**相互補完の可能性**がある。
-
----
-
-## 4. アプローチ
-
-### 4.1 文脈ベース Token 検知 — 従来手法との違い
-
-通話音声をリアルタイムで分析し、詐欺の可能性を判定する。
-
-従来のキーワードベースのシステムは、「お金」「振込」「警察」といった特定の単語が出現した時点で警報を発する。しかし、これらの単語は日常会話でも頻繁に使われる。結果として大量の誤報（False Positive）が発生し、利用者は警報を無視するようになる。
-
-GenAI Guardian の検知は、これとは異なるアプローチを取る。
-
-- 個々の単語ではなく、**会話の流れ全体を文脈として読解**する
-- 恐怖の喚起、時間的切迫の演出、社会的孤立への誘導——といった**心理的支配の構造が会話の中に成立しているかどうか**を判定する
-- 特定の単語が出現しただけでは反応しない。それらの単語が、操作的な文脈の中に組み込まれて初めて検知する
-
-この**文脈認識**により、誤報問題を原理的に抑制する。
-
-### 4.2 緊迫環境下の人間動作分析 — 高齢者に有効な理由
-
-カメラ映像のローカル AI 分析により、通話中の被害者の動作変化を検知する。
-
-人間は心理的に追い詰められた状態（恐怖、焦り、混乱）において、特定の動作パターンを示すことが知られている——落ち着きのない動き、反復的な動作、通常と異なる姿勢の変化などである。
-
-この検知は、高齢者に対して特に有効性が高い。高齢者は日常生活における動きの変動幅が若年者と比較して小さいため、異常な動作パターンが発生した際の**コントラストが大きく、検知の信頼度が構造的に高くなる**。
-
-映像分析はすべて端末上のローカル AI で処理され、映像データは外部に送信されない。
+As different research trajectories toward the same goal, there is **potential for mutual complementarity**.
 
 ---
 
-## 5. 研究者の背景
+## 4. Approach
 
-### 刑事法廷での実務経験
+### 4.1 Context-Based Token Detection — How It Differs from Conventional Methods
 
-来日前、中国の刑事法廷において 2 年以上にわたり実務に従事した。
+The system analyzes call audio in real time to assess the likelihood of fraud.
 
-その中で、中国全土を震撼させ東南アジアにまで波及した**大規模特殊詐欺事件**の審理・判決に携わった。通常の刑事事件の判決書は 4〜6 ページであるが、当該事件の判決書は **30 ページ以上**に及んだ。
+Conventional keyword-based systems trigger an alert when specific words such as "money," "transfer," or "police" appear. However, these words are also used frequently in everyday conversation. The result is a flood of false positives, causing users to ignore alerts altogether.
 
-刑事法廷で扱われるすべての情報は、最終的な判決書を除き、厳格な守秘義務の下にある。この経験を通じて、詐欺犯罪の心理・手口・組織構造を、司法手続きの内側から理解している。
+GenAI Guardian takes a fundamentally different approach.
 
-### 学術研究
+- Rather than individual words, it **reads the entire flow of conversation as context**
+- It determines whether **a structure of psychological manipulation has been established within the conversation** — the elicitation of fear, the creation of time pressure, the inducement of social isolation
+- It does not react merely because a specific word appears. Detection occurs only when those words are embedded within a manipulative context
 
-2021 年、修士課程において「**悪徳商法や詐欺に対する脆弱性と不安感情の関連について**」を研究テーマとした。犯罪心理学の観点から、詐欺被害に対する人間の脆弱性の構造を分析した。
+This **context awareness** suppresses the false positive problem at a fundamental level.
 
-### 在日経験
+### 4.2 Human Behavior Analysis Under Duress — Why It Is Especially Effective for the Elderly
 
-来日から **10 年以上**が経過している。日本語での研究・実務が可能であり、日本社会の構造、高齢化の実態、特殊詐欺の被害パターンに対する理解は、長期の在日生活を通じて培われたものである。
+On-device AI analysis of camera footage detects behavioral changes in the victim during a call.
+
+It is well established that when humans are psychologically cornered — experiencing fear, anxiety, or confusion — they exhibit specific behavioral patterns: restless movements, repetitive actions, unusual changes in posture, and so on.
+
+This detection is particularly effective for elderly individuals. Because the range of movement variation in daily life is smaller for the elderly compared to younger people, **the contrast when abnormal behavioral patterns occur is greater, making detection structurally more reliable**.
+
+All video analysis is processed by on-device AI, and no video data is transmitted externally.
 
 ---
 
-## 6. データ資産
+## 5. Researcher Background
 
-### 総量指標
+### Practical Experience in Criminal Courts
 
-| 指標 | 数値 |
+Prior to coming to Japan, the researcher spent over two years working in criminal courts in China.
+
+During this period, the researcher was involved in the trial and sentencing of a **large-scale telecom fraud case** that shook the entire country and extended into Southeast Asia. While a typical criminal verdict runs 4 to 6 pages, the verdict for this case exceeded **30 pages**.
+
+All information handled in criminal courts is subject to strict confidentiality obligations, with the exception of the final verdict. Through this experience, the researcher gained an understanding of the psychology, methods, and organizational structures of fraud from within the judicial process.
+
+### Academic Research
+
+In 2021, the researcher's master's thesis focused on **"The relationship between vulnerability to fraudulent business practices and scams and anxiety."** From the perspective of criminal psychology, the research analyzed the structure of human vulnerability to fraud victimization.
+
+### Experience Living in Japan
+
+The researcher has lived in Japan for **over 10 years**. Capable of conducting research and professional work in Japanese, the researcher's understanding of Japanese social structures, the realities of population aging, and telecom fraud victimization patterns has been cultivated through long-term residence.
+
+---
+
+## 6. Data Assets
+
+### Aggregate Metrics
+
+| Metric | Value |
 |------|------|
-| データセット数 | 30 |
-| 総録音時間 | 約 600 時間（24 時間休まず聴いて約 1 ヶ月） |
-| 総テキスト量 | 約 40 億文字以上（書籍換算 約 40,000 冊） |
-| 対象言語 | 日本語・中国語・英語・韓国語（4 言語） |
-| データ地域 | 日本・中国・米国・韓国・国際（5 カ国/地域） |
-| データ期間 | 2015 年〜 2025 年（約 10 年間。中核は 2022〜2025 年） |
+| Number of Datasets | 30 |
+| Total Recorded Audio | Approx. 600 hours (equivalent to about 1 month of continuous listening) |
+| Total Text Volume | Approx. 4 billion+ characters (equivalent to approx. 40,000 books) |
+| Languages Covered | Japanese, Chinese, English, Korean (4 languages) |
+| Geographic Coverage | Japan, China, United States, South Korea, International (5 countries/regions) |
+| Data Period | 2015 – 2025 (approx. 10 years; core period: 2022–2025) |
 
-### 分類別データ一覧
+### Dataset Inventory by Category
 
-| # | ソース種別 | 地域 | 言語 | 規模 | 概要 |
+| # | Source Type | Region | Language | Scale | Summary |
 |---|----------|------|------|------|------|
-| 1 | 大手通信事業者との共同研究 | 中国 | 中国語 | 200 時間以上 + 数億文字 | 通話音声と転写テキスト |
-| 2 | 同上（テキスト特化） | 中国 | 中国語 | 千万文字規模 | テキスト分類データ |
-| 3 | 英語圏詐欺通話録音（研究用） | 米国/国際 | 英語 | 200 時間以上 + 数億文字 | 通話録音と研究用ラベル |
-| 4 | 米国連邦政府機関 | 米国 | 英語 | 十数時間 | 公的記録データ |
-| 5 | 大手半導体企業 | 国際 | 英語 | 数十時間 | 音声評価データ |
-| 6 | 実際の詐欺犯との通信記録 | 国際 | 英語 | 数百通 / 数千万文字 | 長年蓄積した一次資料 |
-| 7 | 日本の法執行機関（5 機関） | 日本各地 | 日本語 | 数時間 + 数万文字 | 法執行機関由来の複数形式データ |
-| 8 | AI 安全性研究（大手テック企業 4 社） | 国際 | 英語 | 20 億文字以上 | 安全性評価データ |
-| 9 | 韓国学術研究 | 韓国 | 韓国語 | 数億文字 | 学術研究データ |
-| 10 | 音声セキュリティ研究 | 中国/国際 | 中/英 | 数億文字 | 音声セキュリティ研究データ |
-| 11 | ディープフェイク検出 | 国際 | 英語 | 百万文字規模 | 検出研究資料 |
+| 1 | Joint research with a major telecom carrier | China | Chinese | 200+ hours + hundreds of millions of characters | Call audio and transcribed text |
+| 2 | Same as above (text-focused) | China | Chinese | Tens of millions of characters | Text classification data |
+| 3 | English-language fraud call recordings (research use) | U.S./International | English | 200+ hours + hundreds of millions of characters | Call recordings with research labels |
+| 4 | U.S. federal government agency | U.S. | English | Tens of hours | Public record data |
+| 5 | Major semiconductor company | International | English | Tens of hours | Voice evaluation data |
+| 6 | Actual correspondence with fraud perpetrators | International | English | Hundreds of messages / tens of millions of characters | Primary source material accumulated over years |
+| 7 | Japanese law enforcement agencies (5 agencies) | Various regions in Japan | Japanese | Several hours + tens of thousands of characters | Multi-format data from law enforcement sources |
+| 8 | AI safety research (4 major tech companies) | International | English | 2 billion+ characters | Safety evaluation data |
+| 9 | South Korean academic research | South Korea | Korean | Hundreds of millions of characters | Academic research data |
+| 10 | Voice security research | China/International | Chinese/English | Hundreds of millions of characters | Voice security research data |
+| 11 | Deepfake detection | International | English | Millions of characters | Detection research materials |
 
-これらのデータは、各国の法執行機関・研究機関への長年にわたる調査と関係構築を通じて体系的に収集したものである。一部のデータは、人身上のリスクを伴う調査活動の中で取得された。
+These datasets were systematically collected through years of investigation and relationship-building with law enforcement agencies and research institutions across multiple countries. Some data was obtained through investigative activities that involved personal risk.
 
-> データ資産の詳細につきましては、お問い合わせいただければ管理された環境でお見せすることが可能です。
+> Detailed information about the data assets can be presented in a controlled environment upon inquiry.
 
-### データ統計ダッシュボード
+### Data Statistics Dashboard
 
-![GenAI Guardian データ資産統計](/images/05_guardian_dashboard.png)
+![GenAI Guardian Data Asset Statistics](/images/05_guardian_dashboard.png)
 
-### データ種別統計
+### Data Type Statistics
 
-![データ種別統計](/images/07_guardian_stats.png)
+![Data Type Statistics](/images/07_guardian_stats.png)
 
-> 同ワークステーションで実行したファイル種別分析の結果。音声データ 36,962 ファイル / 33.5 GB、テキストデータ 57,428 ファイル / 9.1 GB。合計 108,105 ファイル / 55.5 GB。
+> File type analysis conducted on the same workstation. Audio data: 36,962 files / 33.5 GB. Text data: 57,428 files / 9.1 GB. Total: 108,105 files / 55.5 GB.
 
 ---
 
-## 7. 将来展望
+## 7. Future Outlook
 
-GenAI Guardian の出発点は、日本の高齢者を特殊詐欺から守ることである。
+GenAI Guardian's starting point is protecting Japan's elderly from telecom fraud.
 
-しかし、本システムの検知対象は特定の手口ではなく、**言語を通じた心理的支配の構造**そのものである。Token は人間の言語においても AI の言語処理においても最小の構成単位であり、AI が生成するテキストも、人間が話す言葉も、すべて Token の連なりとして処理される。
+However, the system's detection target is not a specific set of fraud techniques but rather **the structure of psychological manipulation through language** itself. Tokens are the smallest building blocks of both human language and AI language processing — whether text is generated by AI or spoken by a human, it is all processed as sequences of tokens.
 
-文脈ベースの Token 検知は、その性質上、以下の方向に適用範囲を拡大しうる。
+By its very nature, context-based Token detection can extend its scope of application in the following directions.
 
-| フェーズ | 対象 |
+| Phase | Target |
 |---------|------|
-| 現在 | 高齢者特殊詐欺の検知（日本市場） |
-| 近未来 | AI 生成コンテンツの安全性審査、デジタルヒューマン・ライブ配信の信頼性検証 |
-| 長期 | 多言語展開。AI がコミュニケーションに介在する領域が拡大するほど、文脈 Token 検知の適用範囲も拡大する |
+| Present | Detection of elderly telecom fraud (Japanese market) |
+| Near-term | Safety screening of AI-generated content; trust verification for digital humans and live streaming |
+| Long-term | Multilingual expansion. As AI becomes more involved in communication, the applicability of context Token detection expands accordingly |
 
 ---
 
-## 8. 連絡先
+## 8. Contact
 
-zxvchao@outlook.com
+Zichao Zhou
+zxvchaos@gmail.com
 
 ---
 
-*GenAI Guardian — 項目紹介（対日版）*
+*GenAI Guardian — Project Overview*
 *2026-03*

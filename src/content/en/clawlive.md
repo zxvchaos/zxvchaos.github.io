@@ -1,302 +1,308 @@
-# ClawLive — プロジェクト紹介
+# ClawLive — Project Overview
 
-> すべてのデジタルヒューマンに、その人だけの魂を。
-
----
-
-## 1. ClawLive とは
-
-ClawLive は、AI エージェントを基盤とする**デジタルライフ商業プラットフォーム**です。
-
-ライブ配信・ショート動画・マルチプラットフォーム配信の 3 つの事業領域を持ち、デジタルヒューマンを活用したコマースとコンテンツ制作をワンストップで提供します。
-
-| 事業領域 | 内容 | 特徴 |
-|----------|------|------|
-| **ライブコマース** | リアルタイム配信 + 視聴者インタラクション + 商品紹介 | 24 時間 365 日、人格を持つデジタルヒューマンが接客 |
-| **ショート動画 / CM** | デジタルヒューマンによる動画・広告・ブランドコンテンツ制作 | コンテンツ制作効率の大幅向上 |
-| **マルチ配信** | 複数プラットフォームへの同時配信 + コンテンツ最適化 | ひとつの人格で全チャネルをカバー |
-
-3 つの事業は同一のプラットフォーム基盤を共有しています。出力形式が異なるだけで、中核となる AI エージェント群は共通です。
-
-![リアリスティック・デジタルヒューマン配信](/images/01v_livestream_realistic.jpg)
-
-![キャラクター・デジタルヒューマン配信](/images/02v_livestream_chibi.jpg)
+> Giving every digital human a soul of their own.
 
 ---
 
-## 2. 「デジタルライフ」という考え方
+## 1. What Is ClawLive
 
-多くのデジタルヒューマン製品は、画面に映る一人のキャラクターを納品します。
+ClawLive is an **AI agent-powered digital life commercial platform**.
 
-ClawLive が提供するのは、キャラクターではなく、**デジタルライフで構成されたチーム全体の運営能力**です。
+It spans three business domains — livestream commerce, short-form video, and multi-platform distribution — delivering a one-stop solution for digital human-driven commerce and content production.
 
-視聴者の目に映るデジタルヒューマンは、チームの中で一番前に立っている一人にすぎません。その後ろには、それぞれ専門の役割を持つ AI エージェントが連携して動いています。
+| Domain | Description | Key Feature |
+|--------|------------|-------------|
+| **Livestream Commerce** | Real-time streaming + viewer interaction + product showcase | 24/7 customer engagement by digital humans with distinct personalities |
+| **Short-Form Video / Ads** | Video, advertising, and branded content produced by digital humans | Dramatically higher content production efficiency |
+| **Multi-Platform Distribution** | Simultaneous distribution across multiple platforms + content optimization | A single personality covers every channel |
 
-| 役割 | 担当内容 |
-|------|----------|
-| レンダラー | リアルタイムで映像と口の動きを生成 |
-| パーソナリティ設計 | 性格の一貫性と感情状態を維持 |
-| ボイスエンジン | 音声合成・声質再現 |
-| インタラクション | コメント・ギフト・フォローの読み取りと応答 |
-| 配信管理 | 映像出力とマルチプラットフォーム配信 |
-| オーケストレーター | タスク調整・障害復旧・稼働監視 |
+All three domains share a unified platform foundation. Only the output format differs; the core AI agent stack is the same.
 
-これらはすべて独立した AI エージェントとして動作しており、個別に監視・交換・改善が可能です。
-
-ひとつの「プログラム」が動いているのではなく、**デジタルライフのチームが運営している**——これが、単なるデジタルヒューマン配信ツールとの根本的な違いです。
-
----
-
-## 3. 日本市場に提供できる価値
-
-### 3.1 ライブコマースの離陸
-
-日本では 2025 年が**ライブコマース元年**と位置付けられつつあります。
-
-| 指標 | 数値 | 出典 |
-|------|------|------|
-| 日本 BtoC-EC 市場（2024 年） | **26.1 兆円**（前年比 +5.1%） | 経済産業省 |
-| ライブコマース視聴後の購入率 | **54.8%** | 業界調査 |
-| ライブコマース認知率 | 31.9% | 同上 |
-| ライブコマース市場 CAGR（〜2033 年） | **38.3%** | Grand View Research |
-
-馴染んでいないものの、一度視聴した消費者の過半数が購入に至っている——市場はまだ黎明期にありながら、ポテンシャルはすでに実証されています。
-
-2025 年 6 月の TikTok Shop 日本上陸は、ライブコマースのインフラが整う大きな転換点となります。
-
-### 3.2 VTuber 市場が示すもの
-
-日本の消費者は、バーチャルな存在に感情的なつながりを持つことにすでに慣れています。
-
-| 指標 | 数値 | 出典 |
-|------|------|------|
-| VTuber 市場規模（2026 年） | 約 **1,260 億円** | 矢野経済研究所 |
-| Hololive + Nijisanji 合計年間売上 | **442 億円** | 各社 IR |
-| 「推し」を持つファンの割合 | **68.6%** | 矢野経済研究所（2025 年調査） |
-
-VTuber の成功は、日本の消費者が**人格を持つバーチャルな存在にお金を払う意思がある**ことを証明しています。
-
-ただし、現在の VTuber は中の人（演者）に依存するモデルであり、人件費が高く、スケーラビリティに限界があります。**AI によって完全自動駆動される人格型デジタルヒューマンのライブ配信**は、日本においてほぼ空白の領域です。
-
-### 3.3 グローバルなデジタルヒューマン市場
-
-| 出典 | 2026 年規模 | 長期予測 | CAGR |
-|------|-----------|----------|------|
-| Business Research Insights | 110.3 億ドル | 471.1 億ドル（2035 年） | 22.5% |
-| Technavio | — | +274.3 億ドル（2025–2029 年） | 43.9% |
+<div style="display: flex; gap: 16px; justify-content: center; margin: 2rem 0;">
+  <div style="flex: 1; max-width: 48%;">
+    <img src="/images/01v_livestream_realistic.jpg" alt="Realistic digital human livestream" style="width: 100%; border-radius: 8px;" />
+  </div>
+  <div style="flex: 1; max-width: 48%;">
+    <img src="/images/02v_livestream_chibi.jpg" alt="Character-style digital human livestream" style="width: 100%; border-radius: 8px;" />
+  </div>
+</div>
 
 ---
 
-## 4. 日本市場固有の課題
+## 2. The "Digital Life" Concept
 
-### 4.1 ブランド毀損リスク
+Most digital human products deliver a single on-screen character.
 
-デジタルヒューマンのコンテンツが市場の期待水準に達しない場合、「効果がない」だけでは済みません。コンテンツそのものが**ブランドを毀損するリスク**になります。
+What ClawLive provides is not a character, but **the full operational capability of a team composed of digital lives**.
 
-この問題は日本で特に深刻です。
+The digital human that viewers see is simply the one standing at the front of the team. Behind it, a network of AI agents — each with a specialized role — works in coordination.
 
-| 市場 | 購買の起点 | デジタルヒューマンへの要求 |
-|------|-----------|----------------------|
-| 中国 | 商品スペック・価格 | 標準的な商品説明ができれば成立 |
-| 日本 | **人物・IP への信頼** | 性格と表現の再現度が問われる |
+| Role | Responsibility |
+|------|---------------|
+| Renderer | Generates visuals and lip-sync in real time |
+| Personality Designer | Maintains character consistency and emotional state |
+| Voice Engine | Speech synthesis and voice reproduction |
+| Interaction Handler | Reads and responds to comments, gifts, and follows |
+| Broadcast Manager | Video output and multi-platform distribution |
+| Orchestrator | Task coordination, fault recovery, and uptime monitoring |
 
-日本の消費者は、**コンテンツの品質そのものを、商品の判断よりも先に評価します**。コンテンツの完成度が足りなければ、商品が検討されることすらありません。
+Each of these operates as an independent AI agent that can be individually monitored, swapped, and improved.
 
-### 4.2 「不気味の谷」と品質のボーダーライン
-
-学術研究（Frontiers 2025, 慶熙大学 2024）によれば、バーチャルヒューマンの再現度とユーザー受容度の関係は線形ではありません。中途半端な写実度は、低い写実度よりもむしろ不快感を引き起こしやすい——「やらないほうがマシ」という状態が生じ得ます。
-
-日本市場には品質の**ボーダーライン**が存在します。超えれば商業価値が生まれ、超えなければブランドが傷つきます。
-
----
-
-## 5. 市場参入アプローチ
-
-### 5.1 2D / カートゥーン先行
-
-不気味の谷のリスクを踏まえ、日本市場への参入は**段階的なビジュアルアップグレード**で進めます。
-
-| フェーズ | ビジュアルスタイル | 狙い |
-|---------|------------|------|
-| Phase A | 2D / ミニキャラクター | 品質リスク最小化。話し方と人格の再現能力を単独で検証 |
-| Phase B | セミリアリスティック | 既に構築された人格認知のもとで外観をアップグレード |
-| Phase C | フォトリアル | 高 IP 価値シーン向け。人格モデル成熟後の最終段階 |
-
-この方針には、日本市場で実証された先例があります。
-
-- ゲーム業界では SD（スーパーデフォルメ）キャラクターが配信やプロモーションに広く使われている
-- VTuber エコシステムでは Live2D モデルの市場受容とファンのエンゲージメントがすでに十分に検証されている
-
-### 5.2 人格と言語を先に磨く
-
-参入戦略のポイントは、**見た目より先に、言葉と性格を売る**ことです。
-
-キャラクタースタイルの段階で集中的に磨き込むのは以下の能力です。
-
-- **日本語の自然さ** — 語尾の使い方、敬語の切り替え、間の取り方
-- **性格の一貫性** — 同じキャラクターが異なる場面で一貫した振る舞いを見せること
-- **インタラクション** — コメント・ギフトへの即時かつキャラクターらしい応答
-- **感情表現** — 喜び・感謝・おすすめ・冷静さなど状態の自然な遷移
-
-キャラクタースタイルには、外観の再現度が評価を左右しないという構造的な利点があります。視聴者の関心を「この顔は似ているか」ではなく「この人の言葉に惹かれるか」に向けることができます。
+This is not a single "program" running — it is **a team of digital lives operating together**. That is the fundamental difference from a conventional digital human streaming tool.
 
 ---
 
-## 6. プラットフォーム能力
+## 3. Value Proposition for the Japanese Market
 
-### 6.1 デジタルヒューマンにできること
+### 3.1 Live Commerce Takes Off
 
-| 機能 | 内容 |
-|------|------|
-| リアルタイム配信 | リップシンク・自然な表情・視聴者のコメントやギフトへの即時応答 |
-| 多言語対応 | 日本語・中国語・英語を含む 140 以上の言語での音声インタラクション |
-| 知的対話 | 大規模言語モデルに基づく自由な会話（固定スクリプトの繰り返しではない） |
-| 人格の一貫性 | 時間帯や状況が変わっても、同じキャラクターとして振る舞う |
-| マルチプラットフォーム | 一度の構築で複数の配信・動画プラットフォームに展開 |
+In Japan, 2025 is increasingly seen as **Year One of live commerce**.
 
-![プラットフォーム対話画面（1）](/images/03a_platform_chat_p1.jpg)
+| Metric | Figure | Source |
+|--------|--------|--------|
+| Japan BtoC e-commerce market (2024) | **26.1 trillion yen** (YoY +5.1%) | Ministry of Economy, Trade and Industry |
+| Purchase rate after watching live commerce | **54.8%** | Industry survey |
+| Live commerce awareness rate | 31.9% | Same as above |
+| Live commerce market CAGR (through 2033) | **38.3%** | Grand View Research |
 
-![プラットフォーム対話画面（2）](/images/03b_platform_chat_p2.jpg)
+Although live commerce is still unfamiliar, more than half of consumers who have watched a session go on to purchase — the market is in its infancy, yet its potential is already proven.
 
-### 6.2 技術成熟度
+The June 2025 launch of TikTok Shop in Japan marks a major turning point, providing the infrastructure for live commerce to scale.
 
-| モジュール | 状態 |
-|-----------|------|
-| デジタルヒューマン描画（リップシンク） | ✅ 検証済み（リアルタイム 30fps+） |
-| 音声合成（日本語対応） | ✅ 稼働中 |
-| 音声認識 | ✅ ローカル実行・低遅延 |
-| LLM 対話 | ✅ 検証済み |
-| TikTok インタラクション | ✅ 検証済み |
-| YouTube インタラクション | ✅ 検証中 |
-| 人格・感情モジュール | 🔨 開発中（コア差別化要素） |
-| マルチ配信 | 📋 計画中 |
+### 3.2 What the VTuber Market Tells Us
 
-### 6.3 デプロイ要件
+Japanese consumers are already comfortable forming emotional bonds with virtual beings.
 
-データセンターは不要です。**4090レベルのワークステーション 1 台**で、描画・音声・対話・インタラクション・配信を含む完全なライブ配信が3つ以上稼働します。必要に応じて、複数台構成やクラウドへのスケールアウトも可能です。
+| Metric | Figure | Source |
+|--------|--------|--------|
+| VTuber market size (2026) | Approx. **126 billion yen** | Yano Research Institute |
+| Hololive + Nijisanji combined annual revenue | **44.2 billion yen** | Respective IR filings |
+| Fans who have an "oshi" (dedicated favorite) | **68.6%** | Yano Research Institute (2025 survey) |
 
----
+The success of VTubers proves that Japanese consumers **are willing to spend money on virtual beings with personality**.
 
-## 7. 競合との位置付け
+However, today's VTubers depend on a human performer behind the avatar, leading to high labor costs and limited scalability. **Fully AI-driven livestreaming by digital humans with personality** remains a near-blank space in Japan.
 
-| 分類 | 代表例 | モデル | ClawLive の違い |
-|------|--------|--------|----------------|
-| 中国 SaaS | 硅基智能（シェア 32%） | 汎用スクリプトに外観を差し替え | **キャラクターごとに独立した性格ロジック** |
-| 日本 VTuber | Hololive, Nijisanji | 演者（中の人）+ 2D/3D モデル | **完全 AI 駆動。人件費ゼロ** |
-| 海外 SaaS | Synthesia, HeyGen | 録画型動画生成 | **リアルタイム配信。コメントを読み、会話できる** |
+### 3.3 The Global Digital Human Market
+
+| Source | 2026 Market Size | Long-Term Forecast | CAGR |
+|--------|-----------------|-------------------|------|
+| Business Research Insights | $11.03 billion | $47.11 billion (2035) | 22.5% |
+| Technavio | — | +$27.43 billion (2025–2029) | 43.9% |
 
 ---
 
-## 8. サービスモデル
+## 4. Challenges Specific to the Japanese Market
 
-各モジュールは独立して提供可能です。お客様の状況に応じて必要な組み合わせを選んでいただけます。
+### 4.1 Brand Damage Risk
 
-| モジュール | 内容 | 成果物 |
-|-----------|------|--------|
-| **市場分析** | ターゲット市場の評価・競合分析・ユーザー像 | 分析レポート |
-| **デジタルヒューマン制作** | キャラクター設計 + AI 生成 + 描画調整 | 利用可能なデジタルヒューマン |
-| **人格設計** | 性格定義・話し方・感情ロジック | 人格設定ファイル + テストレポート |
-| **コンテンツローカライズ** | 日本語の自然さ・文化適合・表現最適化 | 日本語スクリプト + 素材 |
-| **システム構築** | 環境構築・チューニング・稼働開始 | 稼働可能な配信システム |
-| **運用支援** | データモニタリング・効果改善・改善提案 | 定期レポート |
+When digital human content falls below market expectations, the problem goes beyond "ineffectiveness." The content itself becomes **a risk to the brand**.
 
-### 想定される協業パターン
+This issue is especially severe in Japan.
 
-**ブランド企業**
-> 「自社商品を、デジタルヒューマンで日本市場にライブ配信したい。」
+| Market | Purchase Driver | Expectation for Digital Humans |
+|--------|----------------|-------------------------------|
+| China | Product specs and price | Adequate product descriptions are sufficient |
+| Japan | **Trust in the person or IP** | Faithfulness of personality and expression is scrutinized |
 
-→ デジタルヒューマン制作 + 人格設計 + コンテンツローカライズ + システム構築
+Japanese consumers **evaluate the quality of the content itself before they even consider the product**. If the content is not polished enough, the product will never be considered.
 
-**MCN / マネジメント会社**
-> 「所属タレントの IP を活かして、24 時間対応のデジタル分身を作りたい。」
+### 4.2 The Uncanny Valley and the Quality Threshold
 
-→ 市場分析 + 高再現人格モデリング + システム構築 + 継続チューニング
+Academic research (Frontiers 2025, Kyung Hee University 2024) shows that the relationship between virtual human realism and user acceptance is not linear. A mediocre level of realism can provoke more discomfort than a lower level — creating a situation where "not trying would have been better."
 
-**コンテンツ制作会社**
-> 「海外向けショート動画や広告コンテンツを量産したい。」
-
-→ デジタルヒューマン制作 + コンテンツローカライズ + 量産パイプライン構築
+A **quality threshold** exists in the Japanese market. Cross it, and commercial value is created. Fall short, and the brand is damaged.
 
 ---
 
-## 9. 関連プロジェクトから得た独自技術
+## 5. Market Entry Approach
 
-ClawLive の開発チームは、並行して二つのプロジェクトを運用・開発しています。それぞれのプロジェクトで蓄積した技術が、デジタルヒューマン事業に直接応用されています。
+### 5.1 Lead with 2D / Cartoon Style
 
-### 9.1 自然言語による物理デバイス制御 — AI スマートライティング
+Given the uncanny valley risk, entry into the Japanese market follows a **phased visual upgrade** strategy.
 
-自然言語の指示だけで照明機器を高精度に制御する AI システムを独自に開発し、実環境で運用しています。
+| Phase | Visual Style | Objective |
+|-------|-------------|-----------|
+| Phase A | 2D / Chibi Character | Minimize quality risk. Validate speech and personality on their own |
+| Phase B | Semi-Realistic | Upgrade appearance on top of an already established personality perception |
+| Phase C | Photorealistic | For high-IP-value scenarios. Final stage after the personality model matures |
 
-- **アメリカ市場で 24 時間 365 日稼働中**。すでに長期間にわたり安定した実績がある
-- 人間が自然な言葉で指示を出すだけで、照明の色温度・明るさ・演出パターンを精密に制御
-- AI エージェントが自然言語を解釈し、物理デバイスへの制御コマンドに変換する——ClawLive のエージェント連携アーキテクチャと同一の設計思想に基づく
+This approach has proven precedent in the Japanese market:
 
-このプロジェクトは、AI エージェントによる物理世界の制御が「実験室のデモ」ではなく、**日常の本番環境で安定運用できる**ことを実証しています。
+- In the gaming industry, SD (super-deformed) characters are widely used in streams and promotions
+- In the VTuber ecosystem, market acceptance and fan engagement with Live2D models are already well established
 
-### 9.2 文脈認識型 NG ワードフィルタリング — GenAI Guardian 由来の技術
+### 5.2 Polish Personality and Language First
 
-もうひとつのプロジェクト GenAI Guardian で開発している文脈ベースの Token 検知技術は、ライブ配信の**NG ワードフィルタリング**にも応用できます。
+The key to the entry strategy is to **sell language and personality before appearance**.
 
-**従来手法の限界**
+The following capabilities are refined intensively during the character-style phase:
 
-既存の NG ワードフィルターは、正規表現やキーワードリストによる単純マッチングが主流です。この方式は「ブロックするか、通すか」の二択でしか判断できません。
+- **Natural Japanese** — sentence-ending particles, keigo (politeness level) switching, conversational pacing
+- **Personality consistency** — the same character behaves consistently across different situations
+- **Interaction** — instant, in-character responses to comments and gifts
+- **Emotional expression** — natural transitions between joy, gratitude, recommendation, composure, and more
 
-しかし現実には、**同じ単語でも文脈によって問題になる場合とならない場合**があります。たとえば、商品の特性を説明する中で使われる表現と、攻撃的な意図で使われる表現は、単語だけ見れば同一でも意味はまったく異なります。
-
-**ClawLive への応用**
-
-独自に開発した文脈認識型の検知技術により、単語単体ではなく**会話の文脈の中での意味**を低負荷、リアルタイムで判定します。これにより、正当な発言を誤ってブロックする問題（誤検知）を大幅に抑制しつつ、本当に問題のある発言はより確実に検知できます。
-
----
-
-## 10. チームと投資実績
-
-技術と市場理解の両方をカバーする少数精鋭のチームです。
-
-### 心理学バックグラウンドが生む差別化
-
-本プロジェクトの中核メンバーは、社会心理学を専門的に研究してきた経歴を持っています。この背景は、デジタルヒューマン事業において二つの面で直接的な強みとなっています。
-
-**① 人格再現への応用**
-
-日本市場が求めるデジタルヒューマンの品質は、単なる技術的な映像精度にとどまりません。キャラクターが「どう話し、どう反応し、どんな感情を見せるか」——人格の一貫性と深度こそが、日本の消費者の受容度を左右します。心理学の知見は、この人格設計の精度を支えています。
-
-**② ユーザーインサイト**
-
-消費者がなぜ特定のバーチャルキャラクターに惹かれるのか、どのような要因が信頼の構築や購買行動に結びつくのか——こうした問いに対して、直感ではなく心理学的な枠組みから分析し、プロダクト設計に反映できることが、汎用ツールとの差別化につながっています。
-
-### プラットフォーム構想の外部検証
-
-デジタルライフ商業プラットフォームの構築にあたり、プラットフォームの構成要素やアーキテクチャの最適化について、外部の技術チームと技術面での密な連携・協力を行っています。この技術チームは平均年収 **1,000 万円以上**の実務経験豊富なメンバーで構成されており、現在もプラットフォーム設計の検証が進行中です。
-
-※ この協力関係は、プラットフォーム基盤の設計・最適化に関する技術面での交流であり、ClawLive のプロジェクト全体に対する包括的な提携を意味するものではありません。
-
-### 開発投資
-
-**100 万円以上**を投じた専用ハイパフォーマンスワークステーションを用いて、デジタルヒューマンの主要工程を実機上で構築・検証しています。クラウドのデモ環境ではなく、実際の本番稼働を想定した環境で開発を進めています。
-
-### メンバー構成
-
-**技術面**
-- 上記ワークステーション上でデジタルヒューマンの主要工程（描画・音声・対話・インタラクション）を構築・検証済み
-- オープンソース AI 技術の統合と独自開発の実績
-- 最新のマルチモーダルモデル・エンドツーエンド音声モデルの動向を継続的に検証
-
-**市場面**
-- 日本での生活・研究・実務経験が **10 年以上**
-- 上述の心理学バックグラウンドに基づく消費者行動分析
-- 日本市場における品質基準と IP 信頼構造への深い理解
-- 日中バイリンガルでの技術・ビジネスコミュニケーション
+The character style has a structural advantage: visual fidelity does not dominate the evaluation. Viewer attention shifts from "Does this face look right?" to "Am I drawn to what this person says?"
 
 ---
 
-## 11. 連絡先
+## 6. Platform Capabilities
 
-シュウ シチョウ（Shicho Shu）
+### 6.1 What Our Digital Humans Can Do
+
+| Capability | Description |
+|-----------|-------------|
+| Real-Time Streaming | Lip-sync, natural facial expressions, instant response to viewer comments and gifts |
+| Multilingual Support | Voice interaction in 140+ languages including Japanese, Chinese, and English |
+| Intelligent Conversation | Free-form dialogue powered by large language models (not scripted repetition) |
+| Personality Consistency | Stays in character regardless of time of day or situation |
+| Multi-Platform | Build once, deploy across multiple streaming and video platforms |
+
+<div class="img-wide" style="margin: 2rem 0;">
+  <img src="/images/03a_platform_chat_p1.jpg" alt="Platform conversation interface (1)" style="width: 100%; border-radius: 8px; margin-bottom: 16px;" />
+  <img src="/images/03b_platform_chat_p2.jpg" alt="Platform conversation interface (2)" style="width: 100%; border-radius: 8px;" />
+</div>
+
+### 6.2 Technology Readiness
+
+| Module | Status |
+|--------|--------|
+| Digital human rendering (lip-sync) | ✅ Validated (real-time 30 fps+) |
+| Text-to-speech (Japanese supported) | ✅ In production |
+| Speech recognition | ✅ Runs locally with low latency |
+| LLM dialogue | ✅ Validated |
+| TikTok interaction | ✅ Validated |
+| YouTube interaction | ✅ Under validation |
+| Personality / emotion module | 🔨 In development (core differentiator) |
+| Multi-platform distribution | 📋 Planned |
+
+### 6.3 Deployment Requirements
+
+No data center is required. **A single workstation at the RTX 4090 level** can run three or more complete livestreams — including rendering, voice, dialogue, interaction, and broadcasting. Multi-machine and cloud scale-out configurations are available as needed.
+
+---
+
+## 7. Competitive Positioning
+
+| Category | Representative Players | Model | How ClawLive Differs |
+|----------|----------------------|-------|---------------------|
+| China SaaS | Silicon Intelligence (32% market share) | Generic scripts with swappable avatars | **Independent personality logic per character** |
+| Japan VTuber | Hololive, Nijisanji | Human performer + 2D/3D model | **Fully AI-driven. Zero labor cost** |
+| International SaaS | Synthesia, HeyGen | Pre-recorded video generation | **Real-time streaming. Reads comments and holds conversations** |
+
+---
+
+## 8. Service Model
+
+Each module can be provided independently. Clients choose the combination that fits their needs.
+
+| Module | Description | Deliverable |
+|--------|------------|-------------|
+| **Market Analysis** | Target market assessment, competitive analysis, user profiling | Analysis report |
+| **Digital Human Production** | Character design + AI generation + rendering calibration | Ready-to-use digital human |
+| **Personality Design** | Character definition, speech style, emotional logic | Personality config file + test report |
+| **Content Localization** | Natural Japanese, cultural adaptation, expression optimization | Japanese scripts + assets |
+| **System Integration** | Environment setup, tuning, launch | Production-ready streaming system |
+| **Operations Support** | Data monitoring, performance improvement, optimization proposals | Periodic reports |
+
+### Expected Collaboration Patterns
+
+**Brand Companies**
+> "We want to livestream our products to the Japanese market using digital humans."
+
+-> Digital Human Production + Personality Design + Content Localization + System Integration
+
+**MCN / Talent Management Agencies**
+> "We want to create a 24/7 digital avatar that leverages our talent's IP."
+
+-> Market Analysis + High-Fidelity Personality Modeling + System Integration + Ongoing Tuning
+
+**Content Production Studios**
+> "We want to mass-produce short-form video and ad content for international audiences."
+
+-> Digital Human Production + Content Localization + Mass Production Pipeline
+
+---
+
+## 9. Proprietary Technology from Related Projects
+
+The ClawLive development team operates and develops two parallel projects. The technology accumulated in each feeds directly into the digital human business.
+
+### 9.1 Physical Device Control via Natural Language — AI Smart Lighting
+
+We independently developed and operate an AI system that controls lighting equipment with high precision using only natural language instructions.
+
+- **Running 24/7 in the U.S. market**. Proven stable over an extended period
+- A human simply gives instructions in plain language, and the system precisely controls color temperature, brightness, and lighting patterns
+- The AI agent interprets natural language and converts it into control commands for physical devices — built on the same architectural philosophy as ClawLive's multi-agent coordination
+
+This project demonstrates that AI agent control of the physical world is not a "lab demo" but something that **runs reliably in everyday production environments**.
+
+### 9.2 Context-Aware NG Word Filtering — Technology from GenAI Guardian
+
+Token detection technology with contextual awareness, developed in our other project GenAI Guardian, can also be applied to **NG word filtering in livestreams**.
+
+**Limitations of Conventional Approaches**
+
+Existing NG word filters rely primarily on regex or keyword-list matching. This approach can only make a binary decision: block or pass.
+
+In reality, however, **the same word can be problematic or perfectly fine depending on context**. For example, an expression used to describe a product feature and the same expression used with hostile intent are identical at the word level but entirely different in meaning.
+
+**Application to ClawLive**
+
+Our proprietary context-aware detection technology evaluates **meaning within the conversational context** rather than isolated words, in real time and with low overhead. This significantly reduces false positives — cases where legitimate speech is incorrectly blocked — while more reliably catching genuinely problematic content.
+
+---
+
+## 10. Team and Investment
+
+A lean team that covers both technology and market understanding.
+
+### Differentiation Through a Psychology Background
+
+A core member of this project has an academic background specializing in social psychology. This background provides a direct competitive advantage in the digital human business on two fronts.
+
+**1. Application to Personality Reproduction**
+
+The quality that the Japanese market demands from digital humans goes beyond mere technical visual fidelity. How the character speaks, how it reacts, what emotions it displays — personality consistency and depth are what determine acceptance by Japanese consumers. Expertise in psychology underpins the precision of this personality design.
+
+**2. User Insight**
+
+Why do consumers feel drawn to a particular virtual character? What factors drive trust-building and purchasing behavior? Rather than relying on intuition, we analyze these questions through a psychological framework and reflect the findings in product design — a differentiator from generic tools.
+
+### External Validation of the Platform Vision
+
+In building the digital life commercial platform, we maintain close technical collaboration with an external engineering team on platform architecture and optimization. This team is composed of experienced practitioners with an average annual income exceeding **10 million yen**. Platform design validation is currently ongoing.
+
+*Note: This collaboration pertains to technical exchange on platform infrastructure design and optimization. It does not represent a comprehensive partnership covering the entire ClawLive project.*
+
+### Development Investment
+
+We develop and validate the core digital human workflows on a dedicated high-performance workstation representing an investment of **over 1 million yen**. Development takes place in an environment designed for actual production operation, not a cloud demo setup.
+
+### Team Composition
+
+**Technology**
+- Core digital human workflows (rendering, voice, dialogue, interaction) built and validated on the above workstation
+- Track record in integrating open-source AI technologies and original development
+- Continuous evaluation of the latest multimodal models and end-to-end speech models
+
+**Market**
+- Over **10 years** of living, research, and professional experience in Japan
+- Consumer behavior analysis grounded in the psychology background described above
+- Deep understanding of quality standards and IP trust structures in the Japanese market
+- Bilingual (Japanese–Chinese) technical and business communication
+
+---
+
+## 11. Contact
+
+Zichao Zhou
 
 zxvchaos@gmail.com
 
 ---
 
-*ClawLive — デジタルライフ商業プラットフォーム*
+*ClawLive — Digital Life Commercial Platform*
 *2026-03*
