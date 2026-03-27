@@ -54,7 +54,7 @@ export default function TableOfContents() {
   if (items.length === 0) return null;
 
   return (
-    <nav className="hidden lg:block fixed top-24 w-52 max-h-[calc(100vh-8rem)] overflow-y-auto">
+    <nav className="sticky top-24 max-h-[calc(100vh-8rem)] overflow-y-auto">
       <p className="mb-3 text-[10px] font-semibold tracking-[0.2em] uppercase text-text-dim">
         Contents
       </p>

@@ -13,12 +13,10 @@ const { title, subtitle, accentColor, lang = "ja" } = Astro.props;
 ---
 
 <Layout title={`${title} — Zichao Zhou`} lang={lang}>
-  <!-- TOC sidebar — desktop only, positioned relative to content area -->
-  <div class="relative z-10 mx-auto max-w-6xl px-6">
-    <div class="hidden lg:block absolute left-0 top-16" style="width: 200px;">
-      <TableOfContents client:load />
-    </div>
-  </div>
+  <!-- TOC sidebar — fixed position, desktop only -->
+  <aside class="hidden xl:block fixed left-[max(1rem,calc(50vw-38rem))] top-24 z-20 w-48">
+    <TableOfContents client:load />
+  </aside>
 
   <article class="relative z-10 mx-auto max-w-3xl px-6 py-16">
     <a
