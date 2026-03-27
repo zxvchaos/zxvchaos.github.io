@@ -61,7 +61,7 @@ According to 2024 statistics, **65.4% of telecom fraud victims are aged 65 or ol
 
 Japan has the most aged society in the world, and the elderly population is projected to continue growing. The structural risk of telecom fraud is on a demographic trajectory of expansion.
 
-![Image depicting telecom fraud](/images/04e_antifraud_oreore.jpg)
+![Image depicting telecom fraud](/images/04e_antifraud_oreore_en.png)
 
 ### Limitations of Existing Countermeasures
 
@@ -198,7 +198,7 @@ These datasets were systematically collected through years of investigation and 
 
 ### Data Statistics Dashboard
 
-![GenAI Guardian Data Asset Statistics](/images/05_guardian_dashboard.png)
+![GenAI Guardian Data Asset Statistics](/images/05_guardian_dashboard_en.png)
 
 ### Data Type Statistics
 

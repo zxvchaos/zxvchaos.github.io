@@ -20,10 +20,10 @@ All three domains share a unified platform foundation. Only the output format di
 
 <div style="display: flex; gap: 16px; justify-content: center; margin: 2rem 0;">
   <div style="flex: 1; max-width: 48%;">
-    <img src="/images/01v_livestream_realistic.jpg" alt="Realistic digital human livestream" style="width: 100%; border-radius: 8px;" />
+    <img src="/images/01v_livestream_realistic_en.png" alt="Realistic digital human livestream" style="width: 100%; border-radius: 8px;" />
   </div>
   <div style="flex: 1; max-width: 48%;">
-    <img src="/images/02v_livestream_chibi.jpg" alt="Character-style digital human livestream" style="width: 100%; border-radius: 8px;" />
+    <img src="/images/02v_livestream_chibi_en.png" alt="Character-style digital human livestream" style="width: 100%; border-radius: 8px;" />
   </div>
 </div>
 
@@ -160,8 +160,8 @@ The character style has a structural advantage: visual fidelity does not dominat
 | Multi-Platform | Build once, deploy across multiple streaming and video platforms |
 
 <div class="img-wide" style="margin: 2rem 0;">
-  <img src="/images/03a_platform_chat_p1.jpg" alt="Platform conversation interface (1)" style="width: 100%; border-radius: 8px; margin-bottom: 16px;" />
-  <img src="/images/03b_platform_chat_p2.jpg" alt="Platform conversation interface (2)" style="width: 100%; border-radius: 8px;" />
+  <img src="/images/03a_platform_chat_p1_en.png" alt="Platform conversation interface (1)" style="width: 100%; border-radius: 8px; margin-bottom: 16px;" />
+  <img src="/images/03b_platform_chat_p2_en.png" alt="Platform conversation interface (2)" style="width: 100%; border-radius: 8px;" />
 </div>
 
 ### 6.2 Technology Readiness
