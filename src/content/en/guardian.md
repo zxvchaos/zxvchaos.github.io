@@ -10,8 +10,7 @@ GenAI Guardian is a special fraud detection edge AI system that operates **compl
 
 **No internet connection is required whatsoever. Voice and video data never leave the device.**
 
-Elderly individuals receive phone calls at home — telecom fraud strikes in this most private of spaces. If a system introduces cameras and microphones into that space while transmitting data externally, neither the user nor their family can feel at ease. No matter how much one explains that "the data is encrypted" or "the server is secure," anxiety persists as long as a communication pathway exists.
-GenAI Guardian resolves this problem through a design that eliminates the communication pathway entirely. Furthermore, the system is linked to the telephone and **activates only when a call is in progress**. There is no constant surveillance.
+Elderly individuals receive phone calls at home — telecom fraud strikes in this most private of spaces. If a system introduces cameras and microphones into that space while transmitting data externally, neither the user nor their family can feel at ease. No matter how much one explains that "the data is encrypted" or "the server is secure," anxiety persists as long as a communication pathway exists. GenAI Guardian resolves this problem through a design that simply does not require any communication pathway. Furthermore, the system is linked to the telephone and **activates only when a call is in progress**. There is no constant surveillance.
 
 | Design Principle | Details |
 |---------|------|
