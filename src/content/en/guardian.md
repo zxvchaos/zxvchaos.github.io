@@ -45,7 +45,7 @@ In 2025, telecom fraud damages surged to **roughly double the previous year**, s
 
 ### A Growing Global Threat
 
-This problem is not limited to Japan. In January 2026, U.S. anti-fraud expert Frank McKenna stated in his annual report (*2026 Fraud Predictions*) that AI-driven fraud has entered an **"era with no brakes."**
+This problem is not limited to Japan. In January 2026, U.S. anti-fraud expert Frank McKenna stated in his annual report (*2026 Fraud Predictions*) that AI-driven fraud has entered an **"era without guardrails."**
 
 - Global fraud losses exceeded **$1 trillion** in 2025
 - Deepfake attacks increased **3,000%** year-over-year
@@ -66,11 +66,11 @@ Japan has the most aged society in the world, and the elderly population is proj
 
 Current primary countermeasures — awareness campaigns, nuisance call filters, and call recording — either intervene only **after a call has already begun** or rely on the victim's own judgment.
 
-However, fraud perpetrators succeed precisely by stripping victims of their ability to judge. If a victim were capable of thinking "this might be a scam," the fraud would not succeed in the first place. What is needed is **a mechanism that detects when a person has lost the capacity for sound judgment**.
+However, fraud perpetrators succeed precisely by overriding victims' judgment. If a victim were capable of thinking "this might be a scam," the fraud would not succeed in the first place. What is needed is **a system capable of detecting when a person has lost the capacity for sound judgment**.
 
 ---
 
-## 3. Public Interest in This Challenge
+## 3. Established Institutional Attention to This Challenge
 
 ### Anti-Fraud Measures Through AI and Criminal Psychology
 
@@ -96,7 +96,7 @@ This initiative has been officially communicated through multiple channels — F
 - [Fujitsu Converging Technology Research Group](https://global.fujitsu/ja-jp/local/blog/article/2024-01-19-01)
 - [Amagasaki City Official Page](https://www.city.amagasaki.hyogo.jp/kurashi/ansin/bouhan/1030308.html)
 
-### Connection to GenAI Guardian
+### Relevance to GenAI Guardian
 
 The Toyo University professor leading this research was the academic supervisor of the GenAI Guardian researcher during their master's program. The researcher has also participated in the Converging Technology Research Group, attending research presentations and contributing to discussions.
 
@@ -125,7 +125,7 @@ Conventional keyword-based systems trigger an alert when specific words such as 
 GenAI Guardian takes a fundamentally different approach.
 
 - Rather than individual words, it **reads the entire flow of conversation as context**
-- It determines whether **a structure of psychological manipulation has been established within the conversation** — the elicitation of fear, the creation of time pressure, the inducement of social isolation
+- It determines whether **a pattern of psychological manipulation is present in the conversation** — the elicitation of fear, the creation of time pressure, the inducement of social isolation
 - It does not react merely because a specific word appears. Detection occurs only when those words are embedded within a manipulative context
 
 This **context awareness** suppresses the false positive problem at a fundamental level.
@@ -136,7 +136,7 @@ On-device AI analysis of camera footage detects behavioral changes in the victim
 
 It is well established that when humans are psychologically cornered — experiencing fear, anxiety, or confusion — they exhibit specific behavioral patterns: restless movements, repetitive actions, unusual changes in posture, and so on.
 
-This detection is particularly effective for elderly individuals. Because the range of movement variation in daily life is smaller for the elderly compared to younger people, **the contrast when abnormal behavioral patterns occur is greater, making detection structurally more reliable**.
+This detection is particularly effective for elderly individuals. Because the range of movement variation in daily life is smaller for the elderly compared to younger people, **any deviation stands out more sharply, inherently increasing detection reliability**.
 
 All video analysis is processed by on-device AI, and no video data is transmitted externally.
 
@@ -154,7 +154,7 @@ All information handled in criminal courts is subject to strict confidentiality 
 
 ### Academic Research
 
-In 2021, the researcher's master's thesis focused on **"The relationship between vulnerability to fraudulent business practices and scams and anxiety."** From the perspective of criminal psychology, the research analyzed the structure of human vulnerability to fraud victimization.
+In 2021, the researcher's master's thesis focused on **"The Relationship Between Anxiety and Vulnerability to Fraudulent Business Practices and Scams."** From the perspective of criminal psychology, the research analyzed the structure of human vulnerability to fraud victimization.
 
 ### Experience Living in Japan
 
