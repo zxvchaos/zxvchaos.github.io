@@ -1,0 +1,142 @@
+---
+import Layout from "../layouts/Layout.astro";
+import SpotlightBackground from "../components/react/SpotlightBackground";
+import GlowCard from "../components/react/GlowCard";
+import ContributionGraph from "../components/react/ContributionGraph";
+---
+
+<Layout title="周 子超 — AI Engineer" lang="ja">
+  <SpotlightBackground client:load />
+
+  <!-- Hero Section -->
+  <section class="spotlight relative z-10 flex min-h-[85vh] items-center justify-center px-6">
+    <div class="mx-auto max-w-3xl text-center">
+      <div class="animate-fade-in-up">
+        <p class="mb-4 text-sm font-medium tracking-[0.3em] text-accent uppercase">AI Engineer</p>
+      </div>
+
+      <h1 class="animate-fade-in-up delay-100 flex items-end justify-center gap-4 font-bold tracking-tight md:gap-6">
+        <span class="text-gradient text-5xl md:text-7xl">周 子超</span>
+        <span class="text-gradient text-3xl md:text-5xl">シュウ シチョウ</span>
+      </h1>
+
+      <p class="animate-fade-in-up delay-200 mt-3 text-base text-text-muted md:text-lg">
+        Shicho Shu / Zichao Zhou
+      </p>
+
+      <p class="animate-fade-in-up delay-300 mx-auto mt-8 max-w-xl text-base leading-relaxed text-text-muted md:text-lg">
+        犯罪心理学 × エッジ AI × デジタルヒューマン。<br />
+        アイデアを<strong class="text-text">実際に動く商用システム</strong>に仕上げ、<br />
+        本番環境で運用するのが私の仕事です。
+      </p>
+
+      <div class="animate-fade-in-up delay-400 mt-10 flex flex-wrap items-center justify-center gap-3 text-xs text-text-dim">
+        <span class="rounded-full border border-border px-3 py-1">Python</span>
+        <span class="rounded-full border border-border px-3 py-1">LLM Orchestration</span>
+        <span class="rounded-full border border-border px-3 py-1">Edge AI</span>
+        <span class="rounded-full border border-border px-3 py-1">GCP / AWS</span>
+        <span class="rounded-full border border-border px-3 py-1">Multi-Agent</span>
+        <span class="rounded-full border border-border px-3 py-1">心理学修士</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="relative z-10 mx-auto max-w-5xl px-6 pb-24">
+    <h2 class="animate-fade-in-up mb-12 text-center text-sm font-medium tracking-[0.3em] text-text-dim uppercase">Projects</h2>
+
+    <div class="grid gap-8 md:grid-cols-2">
+      <!-- Guardian Card -->
+      <GlowCard client:visible accentColor="#f59e0b" href="/guardian">
+        <div class="mb-4 flex items-center gap-3">
+          <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-guardian/10 text-guardian">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <span class="text-xs font-medium tracking-widest text-guardian uppercase">Anti-Fraud</span>
+        </div>
+        <h3 class="mb-3 text-xl font-bold text-white">GenAI Guardian</h3>
+        <p class="mb-4 text-sm leading-relaxed text-text-muted">
+          完全オフラインで動作するエッジ AI 特殊詐欺検知システム。通話音声の「文脈」から心理的支配の構造を検知し、高齢者を守る。
+        </p>
+        <div class="flex flex-wrap gap-2 text-xs text-text-dim">
+          <span class="rounded border border-border px-2 py-0.5">Edge AI</span>
+          <span class="rounded border border-border px-2 py-0.5">NLP</span>
+          <span class="rounded border border-border px-2 py-0.5">犯罪心理学</span>
+          <span class="rounded border border-border px-2 py-0.5">完全オフライン</span>
+        </div>
+        <div class="mt-4 flex items-center gap-4 text-xs text-text-dim">
+          <span>📊 約 600 時間のデータ</span>
+          <span>🌐 4 言語対応</span>
+        </div>
+      </GlowCard>
+
+      <!-- ClawLive Card -->
+      <GlowCard client:visible accentColor="#8b5cf6" href="/clawlive">
+        <div class="mb-4 flex items-center gap-3">
+          <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-clawlive/10 text-clawlive">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 0 1 9 9 9 9 0 0 1-9 9"/><circle cx="12" cy="12" r="3"/><path d="M3 12a9 9 0 0 1 3.36-7"/><path d="M3 12a9 9 0 0 0 3.36 7"/></svg>
+          </div>
+          <span class="text-xs font-medium tracking-widest text-clawlive uppercase">Digital Life</span>
+        </div>
+        <h3 class="mb-3 text-xl font-bold text-white">ClawLive</h3>
+        <p class="mb-4 text-sm leading-relaxed text-text-muted">
+          AI エージェントを基盤とするデジタルライフ商業プラットフォーム。人格を持つデジタルヒューマンが 24 時間 365 日、ライブ配信で接客。
+        </p>
+        <div class="flex flex-wrap gap-2 text-xs text-text-dim">
+          <span class="rounded border border-border px-2 py-0.5">Multi-Agent</span>
+          <span class="rounded border border-border px-2 py-0.5">Live Commerce</span>
+          <span class="rounded border border-border px-2 py-0.5">人格モデリング</span>
+          <span class="rounded border border-border px-2 py-0.5">140+ 言語</span>
+        </div>
+        <div class="mt-4 flex items-center gap-4 text-xs text-text-dim">
+          <span>🎯 日本市場特化</span>
+          <span>🤖 完全 AI 駆動</span>
+        </div>
+      </GlowCard>
+    </div>
+
+    <!-- Production Systems -->
+    <div class="mt-8">
+      <GlowCard client:visible accentColor="#00d4aa">
+        <h3 class="mb-4 text-lg font-bold text-white">実稼働プロダクト</h3>
+        <div class="grid gap-6 md:grid-cols-2">
+          <div>
+            <h4 class="mb-1 text-sm font-semibold text-accent">商用 AI 照明演出 API</h4>
+            <p class="text-sm text-text-muted">北米 IoT メーカー向け。年間 20 万回以上の API コール。設計〜運用〜請求まで単独で管理。</p>
+          </div>
+          <div>
+            <h4 class="mb-1 text-sm font-semibold text-accent">ドキュメント認識 AI API</h4>
+            <p class="text-sm text-text-muted">給与明細・税表の情報抽出。月間 2 万回超の処理を安定運用中。</p>
+          </div>
+        </div>
+      </GlowCard>
+    </div>
+  </section>
+
+  <!-- GitHub & Contact -->
+  <section class="relative z-10 border-t border-border/50 py-16">
+    <div class="mx-auto max-w-3xl px-6 text-center">
+      <h2 class="mb-8 text-sm font-medium tracking-[0.3em] text-text-dim uppercase">Activity & Contact</h2>
+
+      <div class="mb-8 overflow-hidden rounded-lg border border-border bg-bg-card p-6">
+        <ContributionGraph client:load username="zxvchaos" year={2025} />
+        <a href="https://github.com/zxvchaos" target="_blank" rel="noopener noreferrer" class="mt-3 inline-block text-xs text-accent hover:underline">
+          github.com/zxvchaos →
+        </a>
+      </div>
+
+      <div class="flex flex-col items-center gap-4">
+        <a
+          href="mailto:zxvchaos@gmail.com"
+          class="inline-flex items-center gap-2 rounded-lg border border-accent/30 bg-accent/5 px-6 py-3 text-sm font-medium text-accent transition-all hover:bg-accent/10 hover:border-accent/50"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          zxvchaos@gmail.com
+        </a>
+        <p class="text-xs text-text-dim">
+          社会心理学修士 ・ 在日 10 年以上 ・ 日中英トリリンガル
+        </p>
+      </div>
+    </div>
+  </section>
+</Layout>

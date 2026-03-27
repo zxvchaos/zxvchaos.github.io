@@ -1,0 +1,46 @@
+---
+import Layout from "./Layout.astro";
+
+interface Props {
+  title: string;
+  subtitle: string;
+  accentColor: string;
+  lang?: string;
+}
+
+const { title, subtitle, accentColor, lang = "ja" } = Astro.props;
+---
+
+<Layout title={`${title} — Zichao Zhou`} lang={lang}>
+  <article class="relative z-10 mx-auto max-w-3xl px-6 py-16">
+    <a
+      href={lang === "en" ? "/en/" : "/"}
+      class="mb-8 inline-flex items-center gap-1 text-sm text-text-dim hover:text-accent transition-colors"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+      Back
+    </a>
+
+    <header class="mb-12 animate-fade-in-up">
+      <p class="mb-3 text-xs font-medium tracking-[0.3em] uppercase" style={`color: ${accentColor}`}>
+        {subtitle}
+      </p>
+      <h1 class="text-4xl font-bold tracking-tight text-white md:text-5xl">{title}</h1>
+      <div class="mt-4 h-px w-16" style={`background: ${accentColor}`}></div>
+    </header>
+
+    <div class="animate-fade-in-up delay-200 prose-dark">
+      <slot />
+    </div>
+
+    <footer class="mt-16 border-t border-border pt-8">
+      <a
+        href={lang === "en" ? "/en/" : "/"}
+        class="inline-flex items-center gap-2 text-sm text-accent hover:underline"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+        プロジェクト一覧に戻る
+      </a>
+    </footer>
+  </article>
+</Layout>

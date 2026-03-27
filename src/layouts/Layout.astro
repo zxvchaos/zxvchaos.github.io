@@ -1,0 +1,53 @@
+---
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  description?: string;
+  lang?: string;
+}
+
+const { title, description = "AI Engineer — Edge AI × Digital Humans × Psychology", lang = "ja" } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang={lang} class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content={description} />
+  <title>{title}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body class="min-h-screen bg-bg text-text antialiased">
+  <nav class="fixed top-0 left-0 right-0 z-50 border-b border-border/50 bg-bg/80 backdrop-blur-xl">
+    <div class="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
+      <a href={lang === "en" ? "/en/" : "/"} class="text-lg font-semibold tracking-tight hover:text-accent transition-colors">
+        Z. Zhou
+      </a>
+      <div class="flex items-center gap-6 text-sm text-text-muted">
+        <a href={lang === "en" ? "/en/guardian" : "/guardian"} class="hover:text-text transition-colors">Guardian</a>
+        <a href={lang === "en" ? "/en/clawlive" : "/clawlive"} class="hover:text-text transition-colors">ClawLive</a>
+        <span class="h-4 w-px bg-border"></span>
+        {lang === "ja" ? (
+          <a href="/en/" class="hover:text-accent transition-colors">EN</a>
+        ) : (
+          <a href="/" class="hover:text-accent transition-colors">JA</a>
+        )}
+      </div>
+    </div>
+  </nav>
+
+  <main class="pt-16">
+    <slot />
+  </main>
+
+  <footer class="border-t border-border/50 py-8">
+    <div class="mx-auto max-w-5xl px-6 text-center text-sm text-text-dim">
+      <p>&copy; 2026 Zichao Zhou. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
