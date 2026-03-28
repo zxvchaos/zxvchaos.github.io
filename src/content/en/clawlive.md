@@ -6,7 +6,7 @@
 
 ## 1. What Is ClawLive
 
-ClawLive is an **AI agent-powered digital life commercial platform**.
+ClawLive is an **AI agent-powered digital being commercial platform**.
 
 It spans three business domains — livestream commerce, short-form video, and multi-platform distribution — delivering a one-stop solution for digital human-driven commerce and content production.
 
@@ -29,11 +29,11 @@ All three domains share a unified platform foundation. Only the output format di
 
 ---
 
-## 2. The "Digital Life" Concept
+## 2. The "Digital Being" Concept
 
 Most digital human products deliver a single on-screen character.
 
-What ClawLive provides is not a character, but **the full operational capability of an entire Digital Life team**.
+What ClawLive provides is not a character, but **the full operational capability of an entire Digital Being team**.
 
 The digital human that viewers see is simply the one standing at the front of the team. Behind it, a network of AI agents — each with a specialized role — works in coordination.
 
@@ -48,7 +48,7 @@ The digital human that viewers see is simply the one standing at the front of th
 
 Each of these operates as an independent AI agent that can be individually monitored, swapped, and improved.
 
-This is not a single "program" running — it is **a Digital Life team at work**. That is the fundamental difference from a conventional digital human streaming tool.
+This is not a single "program" running — it is **a Digital Being team at work**. That is the fundamental difference from a conventional digital human streaming tool.
 
 ---
 
@@ -273,7 +273,7 @@ Why do consumers feel drawn to a particular virtual character? What factors driv
 
 ### External Validation of the Platform Vision
 
-In building the digital life commercial platform, we maintain close technical collaboration with an external engineering team on platform architecture and optimization. This team is composed of experienced practitioners with an average annual income exceeding **10 million yen**. Platform design validation is currently ongoing.
+In building the digital being commercial platform, we maintain close technical collaboration with an external engineering team on platform architecture and optimization. This team is composed of experienced practitioners with an average annual income exceeding **10 million yen**. Platform design validation is currently ongoing.
 
 *Note: This collaboration pertains to technical exchange on platform infrastructure design and optimization. It does not represent a comprehensive partnership covering the entire ClawLive project.*
 
@@ -304,5 +304,5 @@ zxvchaos@gmail.com
 
 ---
 
-*ClawLive — Digital Life Commercial Platform*
+*ClawLive — Digital Being Commercial Platform*
 *2026-03*
