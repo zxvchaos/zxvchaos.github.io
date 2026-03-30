@@ -230,4 +230,4 @@ zxvchao@outlook.com
 ---
 
 *GenAI Guardian — 項目紹介（対日版）*
-*2026-03*
+*2026*

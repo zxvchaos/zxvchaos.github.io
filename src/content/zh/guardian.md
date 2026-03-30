@@ -230,4 +230,4 @@ zxvchaos@gmail.com
 ---
 
 *GenAI Guardian — 项目介绍（中文版）*
-*2026-03*
+*2026*
