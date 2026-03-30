@@ -34,14 +34,16 @@ By fusing insights from criminal psychology with AI technology, the system detec
 
 ## 2. The Social Problem: Escalating Telecom Fraud
 
-### The Situation in Japan
+### The Scale of the Problem — China and Japan
 
-| Year | Reported Cases | Damage Amount | Source |
+GenAI Guardian was developed and validated in two of Asia's most affected markets.
+
+| Market | Cases (2024) | Annual Losses (2024) | Source |
 |----|---------|--------|------|
-| 2024 | 21,043 cases | 71.76 billion yen | National Police Agency |
-| 2025 | 27,758 cases (+31.9%) | **141.4 billion yen** (all-time high) | National Police Agency |
+| **China** | 294,000 cases | **¥97 billion** (~$13.5B) | Ministry of Public Security |
+| **Japan** | 21,043 cases | **¥71.8 billion** (~$480M) | National Police Agency |
 
-In 2025, telecom fraud damages surged to **roughly double the previous year**, setting a new all-time record (National Police Agency). Including SNS-based investment fraud and romance scams, total damages exceeded **324.1 billion yen**.
+In China, telecom fraud accounts for roughly **60% of all criminal cases**. Despite intercepting 4.69 billion scam calls and blocking ¥315.1 billion in fraudulent transactions in 2024 alone, direct losses still reached ¥97 billion. In Japan, fraud damages nearly doubled in 2025, reaching an all-time high of **¥141.4 billion**.
 
 ### A Growing Global Threat
 
@@ -56,9 +58,9 @@ The evolution of AI is making fraud techniques more sophisticated by the day. Co
 
 ### The Structure of Elderly Victimization
 
-According to 2024 statistics, **65.4% of telecom fraud victims are aged 65 or older** (National Police Agency). While this figure was 86.6% in 2022 and victimization has been expanding to younger demographics in recent years, the elderly remain at the center of the problem.
+In Japan, **65.4% of telecom fraud victims are aged 65 or older** (National Police Agency, 2024). In China, **over 70% of impersonation fraud victims are elderly**. Both countries face rapidly aging populations: Japan's 65+ population has reached 29.3% (the world's highest), while China's 60+ population surpassed **310 million** in 2024 (22%) and is projected to exceed **400 million by 2035**.
 
-Japan has the most aged society in the world, and the elderly population is projected to continue growing. The structural risk of telecom fraud is on a demographic trajectory of expansion.
+The structural risk of telecom fraud is expanding in lockstep with demographic aging — and this is not limited to Asia. The FBI reported **$4.9 billion** in losses among Americans aged 60+ in 2024 alone.
 
 ![Image depicting telecom fraud](/images/04e_antifraud_oreore_en.png)
 
@@ -74,7 +76,7 @@ However, fraud perpetrators succeed precisely by overriding victims' judgment. I
 
 ### Anti-Fraud Measures Through AI and Criminal Psychology
 
-Anti-fraud approaches that fuse AI with criminal psychology have already attracted significant attention in Japanese society.
+Anti-fraud approaches that fuse AI with criminal psychology have attracted growing attention internationally.
 
 Fujitsu Limited, Toyo University, and the city of Amagasaki in Hyogo Prefecture have been conducting joint research since 2022, pursuing telecom fraud prevention through **"converging technology."** In May 2025, they achieved a fraud detection accuracy of **82%**, which was covered by major Japanese media outlets.
 
@@ -156,9 +158,9 @@ All information handled in criminal courts is subject to strict confidentiality 
 
 In 2021, the researcher's master's thesis focused on **"The Relationship Between Anxiety and Vulnerability to Fraudulent Business Practices and Scams."** From the perspective of criminal psychology, the research analyzed the structure of human vulnerability to fraud victimization.
 
-### Experience Living in Japan
+### International Experience
 
-The researcher has lived in Japan for **over 10 years**. Capable of conducting research and professional work in Japanese, the researcher's understanding of Japanese social structures, the realities of population aging, and telecom fraud victimization patterns has been cultivated through long-term residence.
+The researcher has lived and worked abroad for **over 10 years**, with trilingual (Japanese, Chinese, English) research and professional capability. This long-term immersion has cultivated a deep understanding of social structures, aging realities, and fraud victimization patterns across both China and Japan.
 
 ---
 
@@ -209,7 +211,7 @@ These datasets were systematically collected through years of investigation and 
 
 ## 7. Future Outlook
 
-GenAI Guardian's starting point is protecting Japan's elderly from telecom fraud.
+GenAI Guardian's starting point is protecting the elderly from telecom fraud.
 
 However, the system's detection target is not a specific set of fraud techniques but rather **the structure of psychological manipulation through language** itself. Tokens are the smallest building blocks of both human language and AI language processing — whether text is generated by AI or spoken by a human, it is all processed as sequences of tokens.
 
@@ -217,7 +219,7 @@ By its very nature, context-based Token detection can extend its scope of applic
 
 | Phase | Target |
 |---------|------|
-| Present | Detection of elderly telecom fraud (Japanese market) |
+| Present | Detection of elderly telecom fraud (validated in China and Japan) |
 | Near-term | Safety screening of AI-generated content; trust verification for digital humans and live streaming |
 | Long-term | Multilingual expansion. As AI becomes more involved in communication, the applicability of context Token detection expands accordingly |
 

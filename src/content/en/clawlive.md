@@ -52,22 +52,22 @@ This is not a single "program" running — it is **a Digital Being team at work*
 
 ---
 
-## 3. Value Proposition for the Japanese Market
+## 3. Market Opportunity
 
-### 3.1 Live Commerce Takes Off
+### 3.1 Live Commerce — Proven in Asia, Emerging Globally
 
-In Japan, 2025 is increasingly seen as **the inaugural year for live commerce in Japan**.
+Live commerce is already a massive market in Asia and is now expanding worldwide.
 
-| Metric | Figure | Source |
-|--------|--------|--------|
-| Japan BtoC e-commerce market (2024) | **26.1 trillion yen** (YoY +5.1%) | Ministry of Economy, Trade and Industry |
-| Purchase rate after watching live commerce | **54.8%** | Industry survey |
-| Live commerce awareness rate | 31.9% | Same as above |
-| Live commerce market CAGR (through 2033) | **38.3%** | Grand View Research |
+| Market | Scale (2024) | Key Indicator | Source |
+|--------|--------|--------|--------|
+| **China** | **¥5.33 trillion GMV** (~$807B) | 620 million live commerce users | iResearch / 100EC |
+| **Japan** | Nascent but accelerating | 54.8% purchase rate after viewing | Industry survey |
+| **Global** | ~$500B+ and growing | CAGR **38.3%** (through 2033) | Grand View Research |
+| **U.S.** | ~$17B (2024) | Rapidly growing from a low base | eMarketer |
 
-Although live commerce is still unfamiliar, more than half of consumers who have watched a session go on to purchase — the market is in its infancy, yet its potential is already proven.
+China's live commerce GMV exceeds the GDP of most countries, with the Asia-Pacific region accounting for roughly **two-thirds of the global market**. ClawLive was born in these mature markets and is built for global expansion.
 
-The June 2025 launch of TikTok Shop in Japan marks a major turning point, providing the infrastructure for live commerce to scale.
+The June 2025 launch of TikTok Shop in Japan marks a turning point, bringing live commerce infrastructure to the world's third-largest economy.
 
 ### 3.2 What the VTuber Market Tells Us
 
@@ -92,26 +92,26 @@ However, today's VTubers depend on a human performer behind the avatar, leading 
 
 ---
 
-## 4. Challenges Specific to the Japanese Market
+## 4. Challenges in High-Standard Markets
 
 ### 4.1 Brand Damage Risk
 
 When digital human content falls below market expectations, the problem goes beyond "ineffectiveness." The content itself becomes **a risk to the brand**.
 
-This issue is especially severe in Japan.
+This issue is especially severe in markets where trust in the presenter matters as much as the product itself.
 
 | Market | Purchase Driver | Expectation for Digital Humans |
 |--------|----------------|-------------------------------|
-| China | Product specs and price | Adequate product descriptions are sufficient |
-| Japan | **Trust in the person or IP** | Faithfulness of personality and expression is scrutinized |
+| Price-driven markets | Product specs and price | Adequate product descriptions are sufficient |
+| Trust-driven markets (Japan, premium global) | **Trust in the person or IP** | Faithfulness of personality and expression is scrutinized |
 
-Japanese consumers **evaluate the quality of the content itself before they even consider the product**. If the content is not polished enough, the product will never be considered.
+In trust-driven markets, consumers **evaluate the quality of the content itself before they even consider the product**. If the content is not polished enough, the product will never be considered.
 
 ### 4.2 The Uncanny Valley and the Quality Threshold
 
 Academic research (Frontiers 2025, Kyung Hee University 2024) shows that the relationship between virtual human realism and user acceptance is not linear. A mediocre level of realism can provoke more discomfort than a lower level — creating a situation where "not trying would have been better."
 
-A **quality threshold** exists in the Japanese market. Cross it, and commercial value is created. Fall short, and the brand is damaged.
+A **quality threshold** exists in premium markets. Cross it, and commercial value is created. Fall short, and the brand is damaged. Having been developed and validated in Japan — one of the world's most quality-demanding markets — ClawLive is engineered to clear this bar.
 
 ---
 
@@ -119,7 +119,7 @@ A **quality threshold** exists in the Japanese market. Cross it, and commercial 
 
 ### 5.1 Lead with 2D / Cartoon Style
 
-Given the uncanny valley risk, entry into the Japanese market follows a **phased visual upgrade** strategy.
+Given the uncanny valley risk, market entry follows a **phased visual upgrade** strategy.
 
 | Phase | Visual Style | Objective |
 |-------|-------------|-----------|
@@ -127,10 +127,11 @@ Given the uncanny valley risk, entry into the Japanese market follows a **phased
 | Phase B | Semi-Realistic | Upgrade appearance on top of an already established personality perception |
 | Phase C | Photorealistic | For high-IP-value scenarios. Final stage after the personality model matures |
 
-This approach has proven precedent in the Japanese market:
+This approach has proven precedent across Asian markets:
 
-- In the gaming industry, SD (super-deformed) characters are widely used in streams and promotions
+- In gaming, SD (super-deformed) characters are widely used in streams and promotions
 - In the VTuber ecosystem, market acceptance and fan engagement with Live2D models are already well established
+- China's live commerce market ($807B GMV) has validated that audiences engage with AI-driven presenters at scale
 
 ### 5.2 Polish Personality and Language First
 
@@ -289,10 +290,10 @@ We develop and validate the core digital human workflows on a dedicated high-per
 - Continuous evaluation of the latest multimodal models and end-to-end speech models
 
 **Market**
-- Over **10 years** of living, research, and professional experience in Japan
+- Over **10 years** of living, research, and professional experience abroad (China and Japan)
 - Consumer behavior analysis grounded in the psychology background described above
-- Deep understanding of quality standards and IP trust structures in the Japanese market
-- Bilingual (Japanese–Chinese) technical and business communication
+- Deep understanding of quality standards and trust structures across Asian markets
+- Trilingual (Japanese, Chinese, English) technical and business communication
 
 ---
 
