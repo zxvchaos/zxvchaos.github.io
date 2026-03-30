@@ -48,9 +48,9 @@ const isClawLive = pagePath === '/clawlive';
         <a href={lang === "en" ? "/en/guardian/" : lang === "zh" ? "/zh/guardian/" : "/guardian/"} class={`hover:text-accent transition-colors ${isGuardian ? "text-accent font-medium" : ""}`}>Guardian</a>
         <a href={lang === "en" ? "/en/clawlive/" : lang === "zh" ? "/zh/clawlive/" : "/clawlive/"} class={`hover:text-accent transition-colors ${isClawLive ? "text-accent font-medium" : ""}`}>ClawLive</a>
         <span class="h-4 w-px bg-border"></span>
+        <a href={zhPath} class={`hover:text-accent transition-colors ${lang === "zh" ? "text-accent" : ""}`}>ZH</a>
         <a href={jpPath} class={`hover:text-accent transition-colors ${lang === "ja" ? "text-accent" : ""}`}>JP</a>
         <a href={enPath} class={`hover:text-accent transition-colors ${lang === "en" ? "text-accent" : ""}`}>EN</a>
-        <a href={zhPath} class={`hover:text-accent transition-colors ${lang === "zh" ? "text-accent" : ""}`}>ZH</a>
       </div>
     </div>
   </nav>
