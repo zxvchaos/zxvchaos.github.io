@@ -225,7 +225,7 @@ GenAI Guardian の出発点は、日本の高齢者を特殊詐欺から守る�
 
 ## 8. 連絡先
 
-zxvchao@outlook.com
+zxvchaos@gmail.com
 
 ---
 
