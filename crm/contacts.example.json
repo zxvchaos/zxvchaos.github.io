@@ -1,0 +1,65 @@
+{
+  "$note": "連絡先マスタのサンプル。本番データは crm/contacts.local.json（gitignore 済み）に置く。公開リポジトリに実在の連絡先を入れないこと。",
+  "sender": {
+    "name": "周 子超",
+    "name_kana": "シュウ シチョウ",
+    "org": "",
+    "signature": "周 子超（シュウ シチョウ）",
+    "region": "kanto",
+    "mourning_until": null
+  },
+  "contacts": [
+    {
+      "id": "example-mentor",
+      "name": "山田 太郎",
+      "honorific": "様",
+      "email": "taro.yamada@example.co.jp",
+      "org": "株式会社サンプル",
+      "title": "研究部長",
+      "relationship": "mentor",
+      "tier": "A",
+      "region": "kanto",
+      "language": "ja",
+      "occasions": ["shinnen", "zansho", "nenmatsu"],
+      "dates": { "birthday": null, "anniversary": null },
+      "mourning_until": null,
+      "personal_notes": "2024年 研究会でお世話になった。生成AI分野の助言をいただいた",
+      "history": [
+        { "occasion": "shinnen", "year": 2025, "sent_at": "2025-01-01", "gmail_thread_id": "" }
+      ]
+    },
+    {
+      "id": "example-client-kansai",
+      "name": "佐藤 花子",
+      "honorific": "先生",
+      "email": "hanako.sato@example-clinic.jp",
+      "org": "さとう内科クリニック",
+      "title": "院長",
+      "relationship": "client",
+      "tier": "B",
+      "region": "kansai",
+      "language": "ja",
+      "occasions": ["shinnen", "shochu", "nenmatsu", "anniversary"],
+      "dates": { "birthday": "--03-15", "anniversary": "2016-10-01" },
+      "mourning_until": null,
+      "personal_notes": "開院10周年が2026年10月",
+      "history": []
+    },
+    {
+      "id": "example-mourning",
+      "name": "鈴木 一郎",
+      "honorific": "様",
+      "email": "ichiro.suzuki@example.org",
+      "org": "",
+      "relationship": "friend",
+      "tier": "B",
+      "region": "kanto",
+      "language": "ja",
+      "occasions": ["shinnen", "zansho"],
+      "dates": {},
+      "mourning_until": "2027-01-31",
+      "personal_notes": "2026年秋に喪中はがきを受領。年賀ではなく寒中見舞い",
+      "history": []
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "$schema_note": "日本の季節の挨拶（時候の挨拶）カレンダー。窓口（window）は JST の日付。二十四節気に依存するものは solar_terms から年ごとに解決する。",
+  "timezone": "Asia/Tokyo",
+  "solar_terms": {
+    "2026": { "shokan": "2026-01-05", "risshun": "2026-02-04", "shosho": "2026-07-07", "risshu": "2026-08-07", "hakuro": "2026-09-07", "verified": true, "source": "https://eco.mtk.nao.ac.jp/cgi-bin/koyomi/cande/phenomena_sy.cgi" },
+    "2027": { "shokan": "2027-01-05", "risshun": "2027-02-04", "shosho": "2027-07-07", "risshu": "2027-08-08", "hakuro": "2027-09-08", "verified": false, "note": "立春のみ確認済み。夏の節気は国立天文台の暦要項で毎年2月に確認すること" }
+  },
+  "occasions": [
+    {
+      "id": "shinnen",
+      "label": "新年のご挨拶（年賀）",
+      "kind": "seasonal",
+      "window": { "start": "01-01", "end": "01-07", "end_kansai": "01-15", "preferred": "01-01..01-03" },
+      "subject": "新年のご挨拶（{{sender_name}}）",
+      "template": "shinnen.md",
+      "rules": [
+        "相手が喪中（mourning_until が窓口内）なら送らない。代わりに kanchu（寒中見舞い）を1/8以降に送る",
+        "自分が喪中なら年賀は出さず、寒中見舞いに切り替える",
+        "松の内（関東1/7、関西1/15）を過ぎたら年賀ではなく寒中見舞いにする",
+        "メールは元日の午前中（JST）に届くのが理想。ビジネス相手には仕事始め（1/5前後）でも可",
+        "忌み言葉（去る・失う・絶える・衰える 等）を避ける。「去年」ではなく「昨年」「旧年」"
+      ]
+    },
+    {
+      "id": "kanchu",
+      "label": "寒中見舞い",
+      "kind": "seasonal",
+      "window": { "start": "01-08", "end": "risshun-1" },
+      "subject": "寒中お見舞い申し上げます（{{sender_name}}）",
+      "template": "kanchu.md",
+      "rules": [
+        "喪中の相手への年始の挨拶の代替。年賀を出しそびれた相手への返礼にも使う",
+        "「おめでとう」など祝いの言葉を使わない",
+        "立春（2月4日ごろ）以降は余寒見舞い（yokan）に切り替える"
+      ]
+    },
+    {
+      "id": "yokan",
+      "label": "余寒見舞い",
+      "kind": "seasonal",
+      "optional": true,
+      "window": { "start": "risshun", "end": "02-28" },
+      "subject": "余寒お見舞い申し上げます（{{sender_name}}）",
+      "template": "kanchu.md",
+      "rules": ["寒中見舞いを出しそびれた場合のみ。通常は不要"]
+    },
+    {
+      "id": "nendo",
+      "label": "年度始め・異動のご挨拶",
+      "kind": "seasonal",
+      "optional": true,
+      "window": { "start": "04-01", "end": "04-15" },
+      "subject": "新年度のご挨拶（{{sender_name}}）",
+      "template": "nendo.md",
+      "rules": ["自分の所属・役職・連絡先が変わった年だけ送る。相手の異動を知ったら着任のお祝いを個別に送る"]
+    },
+    {
+      "id": "chugen",
+      "label": "お中元（送り状・お礼）",
+      "kind": "gift",
+      "optional": true,
+      "window": { "start": "07-01", "end": "07-15", "start_kansai": "07-15", "end_kansai": "08-15" },
+      "subject": "お中元のご挨拶（{{sender_name}}）",
+      "template": "chugen.md",
+      "rules": [
+        "関東は7/1〜7/15、関西は7/15〜8/15。地域は contact.region で判定",
+        "窓口を過ぎたら表書きを「暑中御見舞」（立秋前）→「残暑御見舞」（立秋後）に変える",
+        "医師・公務員など受け取りを辞退する立場の相手には贈らない（メールの挨拶のみ）"
+      ]
+    },
+    {
+      "id": "shochu",
+      "label": "暑中見舞い",
+      "kind": "seasonal",
+      "window": { "start": "shosho", "end": "risshu-1", "note": "小暑（7/7ごろ）または梅雨明け〜立秋前日" },
+      "subject": "暑中お見舞い申し上げます（{{sender_name}}）",
+      "template": "shochu.md",
+      "rules": [
+        "立秋（8/7ごろ）以降は必ず残暑見舞い（zansho）にする。件名も本文も「残暑」に切り替える",
+        "梅雨明け前に送るのは早すぎるとされる。7月中旬以降が無難",
+        "文末の日付は「令和○年 盛夏」。句読点を省く伝統様式でも、メールでは通常の文体でよい"
+      ]
+    },
+    {
+      "id": "zansho",
+      "label": "残暑見舞い",
+      "kind": "seasonal",
+      "window": { "start": "risshu", "end": "08-31", "hard_end": "hakuro-1" },
+      "subject": "残暑お見舞い申し上げます（{{sender_name}}）",
+      "template": "zansho.md",
+      "rules": [
+        "立秋〜8月末が基本。遅くとも白露（9/7ごろ）の前日まで",
+        "暑中見舞いを送った相手には送らない（どちらか一方）。暑中見舞いを受け取ったら残暑見舞いで返す",
+        "文末の日付は「令和○年 晩夏」または「立秋」"
+      ]
+    },
+    {
+      "id": "keiro",
+      "label": "敬老の日",
+      "kind": "seasonal",
+      "optional": true,
+      "window": { "start": "09-3mon", "end": "09-3mon" },
+      "subject": "敬老の日のご挨拶（{{sender_name}}）",
+      "template": "keiro.md",
+      "rules": ["高齢の患者・恩師など、相手が喜ぶと確信できる場合のみ。年齢を強調する表現は避ける"]
+    },
+    {
+      "id": "seibo",
+      "label": "お歳暮（送り状・お礼）",
+      "kind": "gift",
+      "optional": true,
+      "window": { "start": "12-01", "end": "12-20", "start_kanto_early": "11-20" },
+      "subject": "お歳暮のご挨拶（{{sender_name}}）",
+      "template": "seibo.md",
+      "rules": ["12/20を過ぎたら「御年賀」（松の内）または「寒中御見舞」に切り替える。お中元と同じく辞退する立場の相手には贈らない"]
+    },
+    {
+      "id": "nenmatsu",
+      "label": "年末のご挨拶",
+      "kind": "seasonal",
+      "window": { "start": "12-15", "end": "12-28" },
+      "subject": "本年のお礼と年末のご挨拶（{{sender_name}}）",
+      "template": "nenmatsu.md",
+      "rules": [
+        "仕事納め（12/28前後）までに送る。年始の挨拶より軽く、その年の具体的なお礼を1行入れる",
+        "相手が喪中でも送ってよい（祝いの言葉を含まないため）。「良いお年を」は避け「お体ご自愛ください」にする",
+        "年末年始の休業案内（クリニック等）を兼ねてよい"
+      ]
+    },
+    {
+      "id": "birthday",
+      "label": "お誕生日",
+      "kind": "personal",
+      "date_field": "birthday",
+      "subject": "お誕生日おめでとうございます（{{sender_name}}）",
+      "template": "birthday.md",
+      "rules": ["当日の午前中。ビジネス相手には年齢に触れない。親しい相手のみ"]
+    },
+    {
+      "id": "anniversary",
+      "label": "開業・開院・創立記念日",
+      "kind": "personal",
+      "date_field": "anniversary",
+      "subject": "ご開業{{years}}周年のお祝い（{{sender_name}}）",
+      "template": "anniversary.md",
+      "rules": ["周年（1・3・5・10・20年）は必ず。それ以外は任意"]
+    },
+    {
+      "id": "notice_holiday",
+      "label": "休業・休診のご案内",
+      "kind": "notice",
+      "optional": true,
+      "windows": [
+        { "label": "年末年始", "start": "12-10", "end": "12-20" },
+        { "label": "ゴールデンウィーク", "start": "04-15", "end": "04-25" },
+        { "label": "お盆", "start": "07-25", "end": "08-05" }
+      ],
+      "subject": "{{period}}休業のご案内（{{sender_org}}）",
+      "template": "notice_holiday.md",
+      "rules": ["事業者（クリニック・店舗）向け。顧客全員に一斉。個別文面は不要"]
+    }
+  ],
+  "event_driven": [
+    { "id": "okuyami", "label": "お悔やみ", "template": "okuyami.md", "rules": ["訃報を知ったらその日のうちに。忌み言葉（重ね重ね・再び・たびたび）と「ご冥福」の宗派差に注意。以後その相手は mourning_until を翌年1月末に設定し年賀を止める"] },
+    { "id": "kaiki", "label": "快気祝い・お見舞い", "template": "omimai.md", "rules": ["入院・療養を知ったらお見舞い。回復を知ったらお祝い。「長い」「繰り返す」を避ける"] },
+    { "id": "shoshin", "label": "昇進・就任・受賞のお祝い", "template": "oiwai.md", "rules": ["知った当日〜3日以内"] },
+    { "id": "orei_meeting", "label": "面会・会食のお礼", "template": "orei.md", "rules": ["翌営業日の午前中まで。話した内容を1点具体的に引用する"] }
+  ],
+  "sending_policy": {
+    "mode": "draft_only",
+    "note": "Claude/Codex は下書き（Gmail draft）を作るだけ。送信は必ず人が Gmail 上で確認して行う",
+    "business_hours_jst": { "weekdays": "09:00-18:00" },
+    "exceptions": { "shinnen": "元日 08:00-11:00 JST に送るのが理想" },
+    "label": "CRM/季節挨拶"
+  }
+}
